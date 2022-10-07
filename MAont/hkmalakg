@@ -1,4 +1,4 @@
-@prefix : <http://EncodingActs.github.io/MAont/hkmalakg/#> .
+@prefix : <http://EncodingActs.github.io/MAont/hkmalakg/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,7 +9,7 @@
 @prefix hkmalakg: <http://EncodingActs.github.io/MAont/hkmalakg/#> .
 @prefix ontologies: <http://www.semanticweb.org/yumeng/ontologies/2021/> .
 @prefix martialmotion: <http://semanticweb.org/ont/martialmotion#> .
-@base <http://EncodingActs.github.io/MAont/hkmalakg/> .
+@base <http://EncodingActs.github.io/MAont/hkmalakg> .
 
 <http://EncodingActs.github.io/MAont/hkmalakg/> rdf:type owl:Ontology ;
                                                               owl:imports ontologies:MA_ont .
