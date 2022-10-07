@@ -7,10 +7,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://EncodingActs.github.io/MAont/MaOntology> .
 
-<http://EncodingActs.github.io/MAont/MaOntology> rdf:type owl:Ontology ;
-                                                dct:creator <https://orcid.org/0000-0002-7908-0693> ;
-                                                dct:title "(MAO: The Ontology of Martial Arts" ;
-                                                rdfs:comment "This ontological framework treats martial arts as embodied knowledge in addition to an entity of Intangible Cultural Heritage.".
+<http://EncodingActs.github.io/MAont/MaOntology> rdf:type owl:Ontology .
+
+#################################################################
+#     Title: MAO: The Ontology of Martial Arts
+#     Description: This ontological framework treats martial arts 
+#       as embodied knowledge in addition to an ICH entity.
+#     Author: Yumeng HOU (https://orcid.org/0000-0002-7908-0693)
+#     License type: MIT license
+#################################################################
 
 #################################################################
 #    Annotation properties
