@@ -1,4 +1,4 @@
-@prefix : <http://EncodingActs.github.io/MAont/MAont_base/#> .
+@prefix : <http://EncodingActs.github.io/MAont/MAont_base/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,7 +8,7 @@
 @prefix MA_ont: <http://EncodingActs.github.io/MAont/MAont_base/#> .
 @prefix ontologies: <http://www.semanticweb.org/yumeng/ontologies/2021/> .
 @prefix webprotege: <http://webprotege.stanford.edu/> .
-@base <http://EncodingActs.github.io/MAont/MAont_base/> .
+@base <http://EncodingActs.github.io/MAont/MAont_base> .
 
 <http://EncodingActs.github.io/MAont/MAont_base/> rdf:type owl:Ontology .
 
