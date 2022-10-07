@@ -217,40 +217,6 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
 #    Object Properties
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/adapts
-<http://EncodingActs.github.io/annotated/MAOcorpus/adapts> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                           rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ,
-                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament> ,
-                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool> ,
-                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method> ;
-                                           rdfs:label "adapts" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/adopts
-<http://EncodingActs.github.io/annotated/MAOcorpus/adopts> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                           rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system> ,
-                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method> ;
-                                           rdfs:label "adopts" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/assessed_by
-<http://EncodingActs.github.io/annotated/MAOcorpus/assessed_by> rdf:type owl:ObjectProperty ;
-                                                rdfs:label "assessed_by" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/belongs_to
-<http://EncodingActs.github.io/annotated/MAOcorpus/belongs_to> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                               rdfs:label "belongs_to" .
-
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/contains
 <http://EncodingActs.github.io/annotated/MAOcorpus/contains> rdf:type owl:ObjectProperty ;
@@ -260,43 +226,11 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                              rdfs:label "contains" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/creates
-<http://EncodingActs.github.io/annotated/MAOcorpus/creates> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                            rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method> ;
-                                            rdfs:label "creates" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/developed_from
-<http://EncodingActs.github.io/annotated/MAOcorpus/developed_from> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ;
-                                                   rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ;
-                                                   rdfs:label "developed_from"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/documents
-<http://EncodingActs.github.io/annotated/MAOcorpus/documents> rdf:type owl:ObjectProperty ;
-                                              rdfs:label "documents" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/employs
 <http://EncodingActs.github.io/annotated/MAOcorpus/employs> rdf:type owl:ObjectProperty ;
                                             rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
                                             rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
                                             rdfs:label "employs" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has
-<http://EncodingActs.github.io/annotated/MAOcorpus/has> rdf:type owl:ObjectProperty ;
-                                        rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                        rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                        rdfs:label "has" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/has_intent
@@ -305,14 +239,6 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
                                                rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_tactic> ;
                                                rdfs:label "has_intent" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has_origin_place
-<http://EncodingActs.github.io/annotated/MAOcorpus/has_origin_place> rdf:type owl:ObjectProperty ;
-                                                     rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                                     rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place> ;
-                                                     rdfs:label "has_origin_place" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/has_principle
@@ -331,40 +257,6 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                rdfs:label "has_symbol" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/identified_by
-<http://EncodingActs.github.io/annotated/MAOcorpus/identified_by> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:E21-Person> ;
-                                                  rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:E41-appellation> ;
-                                                  rdfs:label "identified_by" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/influences
-<http://EncodingActs.github.io/annotated/MAOcorpus/influences> rdf:type owl:ObjectProperty ;
-                                               rdfs:subPropertyOf owl:topObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                               rdfs:label "influences" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is
-<http://EncodingActs.github.io/annotated/MAOcorpus/is> rdf:type owl:ObjectProperty ;
-                                       rdfs:label "is" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_child_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/is_child_of> rdf:type owl:ObjectProperty ;
-                                                rdfs:label "is_child_of" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_clan_member_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/is_clan_member_of> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                      rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                      rdfs:label "is_clan_member_of" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/is_form_in
 <http://EncodingActs.github.io/annotated/MAOcorpus/is_form_in> rdf:type owl:ObjectProperty ;
                                                rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form> ;
@@ -372,54 +264,11 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                rdfs:label "is_form_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_master_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/is_master_of> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                 rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                 rdfs:label "is_master_of" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_parent_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/is_parent_of> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                 rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                 rdfs:label "is_parent_of" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_student_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/is_student_of> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                  rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                                  rdfs:label "is_student_of" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/lives_in_ts
 <http://EncodingActs.github.io/annotated/MAOcorpus/lives_in_ts> rdf:type owl:ObjectProperty ;
                                                 rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
                                                 rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:E52-timespan> ;
                                                 rdfs:label "lives_in_ts" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/located_at
-<http://EncodingActs.github.io/annotated/MAOcorpus/located_at> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place> ;
-                                               rdfs:label "located_at"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/practiced_in
-<http://EncodingActs.github.io/annotated/MAOcorpus/practiced_in> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set> ;
-                                                 rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ;
-                                                 rdfs:label "practiced_in" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/practices
-<http://EncodingActs.github.io/annotated/MAOcorpus/practices> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                              rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                              rdfs:label "practices" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/represents
@@ -430,73 +279,12 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                rdfs:label "represents" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/resides_in
-<http://EncodingActs.github.io/annotated/MAOcorpus/resides_in> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place> ;
-                                               rdfs:label "resides_in" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_form_to
 <http://EncodingActs.github.io/annotated/MAOcorpus/similar_form_to> rdf:type owl:ObjectProperty ;
                                                     rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/similar_to> ;
                                                     rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form> ;
                                                     rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form> ;
                                                     rdfs:label "similar_form_to" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_set_of
-<http://EncodingActs.github.io/annotated/MAOcorpus/similar_set_of> rdf:type owl:ObjectProperty ;
-                                                   rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/similar_to> ;
-                                                   rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set> ;
-                                                   rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set> ;
-                                                   rdfs:label "similar_set_to"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_to
-<http://EncodingActs.github.io/annotated/MAOcorpus/similar_to> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
-                                               rdfs:label "similar_to" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/simulates
-<http://EncodingActs.github.io/annotated/MAOcorpus/simulates> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool> ;
-                                              rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament> ;
-                                              rdfs:label "simulates"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taught_at
-<http://EncodingActs.github.io/annotated/MAOcorpus/taught_at> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ,
-                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                              rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute> ;
-                                              rdfs:label "taught_at"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/teaches
-<http://EncodingActs.github.io/annotated/MAOcorpus/teaches> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                            rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> ,
-                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                            rdfs:label "teaches" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/teaches_at
-<http://EncodingActs.github.io/annotated/MAOcorpus/teaches_at> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> ;
-                                               rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute> ;
-                                               rdfs:label "teaches_at" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/trains
-<http://EncodingActs.github.io/annotated/MAOcorpus/trains> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method> ;
-                                           rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique> ;
-                                           rdfs:label "trains" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/type_of
@@ -513,46 +301,9 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
                                             rdfs:label "used_in" .
 
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/uses
-<http://EncodingActs.github.io/annotated/MAOcorpus/uses> rdf:type owl:ObjectProperty ;
-                                         rdfs:label "uses" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/valid_for
-<http://EncodingActs.github.io/annotated/MAOcorpus/valid_for> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system> ;
-                                              rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ;
-                                              rdfs:label "valid_for" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/with
-<http://EncodingActs.github.io/annotated/MAOcorpus/with> rdf:type owl:ObjectProperty ;
-                                         rdfs:label "with" .
-
-
 #################################################################
 #    Data properties
 #################################################################
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/appellation_type
-<http://EncodingActs.github.io/annotated/MAOcorpus/appellation_type> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                                     rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:E41-appellation> ;
-                                                     rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/ArtName> ,
-                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/EN_Name> ,
-                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/name_originalLang> ;
-                                                     rdfs:label "appellation_type" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/assess_type
-<http://EncodingActs.github.io/annotated/MAOcorpus/assess_type> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                                rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system> ;
-                                                rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/grading_system> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/ranking_system> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/reputation> ;
-                                                rdfs:label "assess_type" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_defend_tactic
@@ -573,51 +324,6 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/body_positioning> ,
                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/body_posture> ;
                                                   rdfs:label "bodywork_type" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties
-<http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> rdf:type owl:DatatypeProperty .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/data_format
-<http://EncodingActs.github.io/annotated/MAOcorpus/data_format> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                                rdf:type owl:FunctionalProperty ;
-                                                rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book> ;
-                                                rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/Image> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/ManualBook> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/MoCap> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/Texts> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/Video> ;
-                                                rdfs:label "doc_format"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/form_type
-<http://EncodingActs.github.io/annotated/MAOcorpus/form_type> rdf:type owl:DatatypeProperty ;
-                                              rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                              rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set> ;
-                                              rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/empty_hand_set> ,
-                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/sparring_set> ,
-                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/weapon_set> ;
-                                              rdfs:label "form_type" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/timespan
-<http://EncodingActs.github.io/annotated/MAOcorpus/timespan> rdf:type owl:DatatypeProperty ;
-                                             rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                             rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:E52-timespan> ;
-                                             rdfs:label "timespan" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/weapon_type
-<http://EncodingActs.github.io/annotated/MAOcorpus/weapon_type> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties> ;
-                                                rdfs:domain <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament> ,
-                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool> ;
-                                                rdfs:range <http://EncodingActs.github.io/annotated/MAOcorpus/bladed_weapon> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/spaer_weapon> ,
-                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/staff_weapon> ;
-                                                rdfs:label "weapon_type" .
 
 
 #################################################################
@@ -678,320 +384,6 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
                                                                      ] ;
                                                      rdfs:label "E21.Person"^^xsd:string ;
                                                      rdfs:seeAlso <https://www.cidoc-crm.org/entity/e21-person/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E22-man_made_obj
-mao:class:E22-man_made_obj rdf:type owl:Class ;
-                           rdfs:label "E22.Man-made Object"^^xsd:string ;
-                           rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e22-man-made-object/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E31-document
-mao:class:E31-document rdf:type owl:Class ;
-                       rdfs:subClassOf owl:Thing ;
-                       rdfs:label "E31.Document"^^xsd:string ;
-                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e31-document/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E41-appellation
-mao:class:E41-appellation rdf:type owl:Class ;
-                          rdfs:label "E41.Appellation"^^xsd:string ;
-                          rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e41-appellation/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E52-timespan
-mao:class:E52-timespan rdf:type owl:Class ;
-                       rdfs:label "E52.Time-Span"^^xsd:string ;
-                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e52-time-span/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place
-mao:class:E53-place rdf:type owl:Class ;
-                    rdfs:label "E53.Place"^^xsd:string ;
-                    rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e53-place/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E77-persistent_item
-mao:class:E77-persistent_item rdf:type owl:Class ;
-                              rdfs:label "E77.Persistent Item"^^xsd:string ;
-                              rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://EncodingActs.github.io/annotated/MAOcorpus/class:E31-document> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/documents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/type_of> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book>
-                                                                  ] ;
-                                                  rdfs:label "MA_Document"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/contains> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/has_intent> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_tactic>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_form_in> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/represents> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/similar_form_to> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/type_of> ;
-                                                                    owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                  ] ;
-                                                  rdfs:label "Form"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute> rdf:type owl:Class ;
-                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/located_at> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
-                                                                         owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                       ] ;
-                                                       rdfs:label "MA_institute" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle> rdf:type owl:Class ;
-                                                       rdfs:subClassOf owl:Thing ;
-                                                       rdfs:label "MA_principle" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style> rdf:type owl:Class ;
-                                                   rdfs:subClassOf owl:Thing ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/belongs_to> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/developed_from> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/has> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/has_origin_place> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/has_principle> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/has_symbol> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:symbolic_animal>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/influences> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/taught_at> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute>
-                                                                   ] ;
-                                                   rdfs:label "MA_Style"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://EncodingActs.github.io/annotated/MAOcorpus/class:E21-Person> ,
-                                                                      owl:Thing ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adapts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adapts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adapts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adapts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adapts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/adopts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/contains> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/creates> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/creates> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/creates> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:armament>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/creates> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/creates> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_child_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_clan_member_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_master_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_parent_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/is_student_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/lives_in_ts> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E52-timespan>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/practices> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/practices> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/resides_in> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/taught_at> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/Form_set>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches_at> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/type_of> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E21-Person>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/valid_for> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/valid_for> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/valid_for> ;
-                                                                        owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system>
-                                                                      ] ;
-                                                      rdfs:label "MA_Master"^^xsd:string ,
-                                                                 "MA_syllabus"^^xsd:string .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system
@@ -1101,16 +493,6 @@ mao:class:E77-persistent_item rdf:type owl:Class ;
                                                                          owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system>
                                                                        ] ;
                                                        rdfs:label "MA_Technique" .
-
-
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:armament
-<http://EncodingActs.github.io/annotated/MAOcorpus/class:armament> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://EncodingActs.github.io/annotated/MAOcorpus/class:E22-man_made_obj> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/type_of> ;
-                                                                     owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:E22-man_made_obj>
-                                                                   ] ;
-                                                   rdfs:label "Armament"^^xsd:string .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/class:body_bridge
@@ -4113,6 +3495,508 @@ mao:class:E77-persistent_item rdf:type owl:Class ;
                                                    :name_en "Switch hitting"^^xsd:string ;
                                                    :name_romanCAN "Zo Jau Hoi Gung"^^xsd:string ;
                                                    :name_romanMAN "Zuo You Kai Gong"^^xsd:string .
+
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/tangling_palms
+<http://EncodingActs.github.io/annotated/MAOcorpus/tangling_palms> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/uw_forcing_palm> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "纏枝手"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Circular forcing palm"^^xsd:string ;
+                                                   rdfs:label "tangling_palms" ;
+                                                   :name_en "Tangling palms"^^xsd:string ;
+                                                   :name_romanCAN "Cin Zi Sau"^^xsd:string ;
+                                                   :name_romanMAN "Chan Zhi Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/target_hand
+<http://EncodingActs.github.io/annotated/MAOcorpus/target_hand> rdf:type owl:NamedIndividual ,
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/blade_palm> ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "標手"^^xsd:string ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Horizontal fingertip thrust"^^xsd:string ,
+                                                                                                        "Horizontal knife hand strike"^^xsd:string ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "標指"^^xsd:string ;
+                                                rdfs:label "target_hand" ;
+                                                :name_en "Target hand"^^xsd:string ;
+                                                :name_romanCAN "Biu Sau"^^xsd:string ;
+                                                :name_romanMAN "Biao Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/three_extending_hand
+<http://EncodingActs.github.io/annotated/MAOcorpus/three_extending_hand> rdf:type owl:NamedIndividual ,
+                                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/class:body_bridge> ;
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/extending_hand> ;
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "三展手"^^xsd:string ;
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "三度株桥"^^xsd:string ,
+                                                                                                                 "連環三展"^^xsd:string ;
+                                                         rdfs:label "three_extending_hand" ;
+                                                         :name_en "Thrice extending hands"^^xsd:string ;
+                                                         :name_romanCAN "Saam Zin Sau"^^xsd:string ;
+                                                         :name_romanMAN "San Zhan Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_elbow
+<http://EncodingActs.github.io/annotated/MAOcorpus/throwing_elbow> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:elbow_tech> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "抛踭"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "直踭"^^xsd:string ;
+                                                   rdfs:label "throwing_elbow" ;
+                                                   :name_en "Throwing elbow strike"^^xsd:string ;
+                                                   :name_romanCAN "Paau Zaang"^^xsd:string ;
+                                                   :name_romanMAN "Pao Zhou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_hammer
+<http://EncodingActs.github.io/annotated/MAOcorpus/throwing_hammer> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:fist_tech> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/backfist> ,
+                                                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_fist> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "抛搥"^^xsd:string ;
+                                                    rdfs:label "throwing_hammer" ;
+                                                    :name_en "Throwing hammer fist"^^xsd:string ;
+                                                    :name_romanCAN "Paau Ceoi"^^xsd:string ;
+                                                    :name_romanMAN "Pao Chui"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/throwing_palm> rdf:type owl:NamedIndividual ,
+                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "摔手"^^xsd:string ;
+                                                  rdfs:label "throwing_palm" ;
+                                                  :name_en "Throwing palm"^^xsd:string ;
+                                                  :name_romanCAN "Seot Sau"^^xsd:string ;
+                                                  :name_romanMAN "Shuai Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/thrust_punch
+<http://EncodingActs.github.io/annotated/MAOcorpus/thrust_punch> rdf:type owl:NamedIndividual ,
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:fist_tech> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/fore_knuckle_fist> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "插捶"^^xsd:string ;
+                                                 rdfs:label "thrust_punch" ;
+                                                 :name_en "Thrust punch"^^xsd:string ;
+                                                 :name_romanCAN "Caap Ceoi"^^xsd:string ;
+                                                 :name_romanMAN "Cha Chui"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/thrusting_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/thrusting_palm> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/reverse_palm> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                               <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                               <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "插掌"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "扱手"^^xsd:string ;
+                                                   rdfs:label "thrusting_palm" ;
+                                                   :name_en "Palm thrust"^^xsd:string ;
+                                                   :name_romanCAN "Caap Zoeng"^^xsd:string ;
+                                                   :name_romanMAN "Cha Zhang"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger
+<http://EncodingActs.github.io/annotated/MAOcorpus/tiger> rdf:type owl:NamedIndividual ,
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/class:symbolic_animal> ;
+                                          rdfs:label "Tiger" .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw
+<http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw> rdf:type owl:NamedIndividual ,
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/class:claw_tech> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/claw_palm> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "虎爪"^^xsd:string ;
+                                               rdfs:label "tiger_claw" ;
+                                               :name_en "Tiger claw"^^xsd:string ;
+                                               :name_romanCAN "Fu Zaau"^^xsd:string ;
+                                               :name_romanMAN "Hu Zhao"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger_tail_kick
+<http://EncodingActs.github.io/annotated/MAOcorpus/tiger_tail_kick> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:leg_tech> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "虎尾脚"^^xsd:string ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Side thrust kick"^^xsd:string ;
+                                                    rdfs:label "tiger_tail_kick" ;
+                                                    :name_en "Tiger tail kick"^^xsd:string ;
+                                                    :name_romanCAN "Fu Mei Goek"^^xsd:string ;
+                                                    :name_romanMAN "Hu Wei Jiao"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/torsion
+<http://EncodingActs.github.io/annotated/MAOcorpus/torsion> rdf:type owl:NamedIndividual ,
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/class:bodywork> ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/bodywork_type> ;
+                                                       owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/body_manipulation>
+                                                     ] ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/body_twisting> ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "扭轉發力"^^xsd:string ;
+                                            rdfs:label "torsion" ;
+                                            :name_en "torsion" .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/trample
+<http://EncodingActs.github.io/annotated/MAOcorpus/trample> rdf:type owl:NamedIndividual ,
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/class:leg_tech> ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/karate> ,
+                                                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "踩"^^xsd:string ;
+                                            rdfs:label "trample_leg"^^xsd:string ;
+                                            :name_en "Trampling"^^xsd:string ;
+                                            :name_romanCAN "Caai"^^xsd:string ;
+                                            :name_romanMAN "Cai"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/turfing_kick
+<http://EncodingActs.github.io/annotated/MAOcorpus/turfing_kick> rdf:type owl:NamedIndividual ,
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:leg_tech> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "趨脚"^^xsd:string ;
+                                                 rdfs:label "turfing_kick" ;
+                                                 :name_en "Turfing kick"^^xsd:string ;
+                                                 :name_romanCAN "Ceoi Goek"^^xsd:string ;
+                                                 :name_romanMAN "Qu Jiao"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/turning
+<http://EncodingActs.github.io/annotated/MAOcorpus/turning> rdf:type owl:NamedIndividual ,
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/class:bodywork> ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/bodywork_type> ;
+                                                       owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/body_movement>
+                                                     ] ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                            <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "轉身"^^xsd:string ;
+                                            rdfs:label "body_turning"^^xsd:string ;
+                                            :name_en "Turning the body"^^xsd:string ;
+                                            :name_romanCAN "Zyun San"^^xsd:string ;
+                                            :name_romanMAN "Zhuan Shen"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/turning_palm> rdf:type owl:NamedIndividual ,
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/crossing_bridge> ,
+                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "圈手"^^xsd:string ;
+                                                 rdfs:label "turning_palm" ;
+                                                 :name_en "Turning palm"^^xsd:string ;
+                                                 :name_romanCAN "Hyun Sau"^^xsd:string ;
+                                                 :name_romanMAN "Quan Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_stance
+<http://EncodingActs.github.io/annotated/MAOcorpus/turning_stance> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:stance> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/similar_to> <http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_steps> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "拐馬"^^xsd:string ;
+                                                   rdfs:label "turning_stance" ;
+                                                   :name_en "Turning stance"^^xsd:string ;
+                                                   :name_romanCAN "Gwaai Maa"^^xsd:string ;
+                                                   :name_romanMAN "Guai Ma"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_steps
+<http://EncodingActs.github.io/annotated/MAOcorpus/turning_steps> rdf:type owl:NamedIndividual ,
+                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:footwork> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/turning> ,
+                                                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_steps> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/has_intent> <http://EncodingActs.github.io/annotated/MAOcorpus/defense_dodge> ,
+                                                                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/distance_management> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "斜風擺柳"^^xsd:string ;
+                                                  rdfs:label "turning_steps_back"^^xsd:string ;
+                                                  :name_en "Retreating steps while turning the body"^^xsd:string ;
+                                                  :name_romanCAN "Ce Fung Baai Lau"^^xsd:string ;
+                                                  :name_romanMAN "Xie Feng Bai Liu"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/twisting_stance
+<http://EncodingActs.github.io/annotated/MAOcorpus/twisting_stance> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:stance> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "扭馬"@zh ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "圈馬"^^xsd:string ,
+                                                                                                            "纏絲馬"^^xsd:string ;
+                                                    rdfs:label "twisting_stance" ;
+                                                    :name_en "Twisting stance"@en ;
+                                                    :name_romanCAN "Nou Maa"^^xsd:string ;
+                                                    :name_romanMAN "Niu Ma"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/two_dragons_outof_sea
+<http://EncodingActs.github.io/annotated/MAOcorpus/two_dragons_outof_sea> rdf:type owl:NamedIndividual ,
+                                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/upright_buddha_palm> ;
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "雙龍出海"^^xsd:string ;
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Double Buddha palm strike"^^xsd:string ;
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "雙撐掌"^^xsd:string ;
+                                                          rdfs:label "two_dragons_outof_sea" ;
+                                                          :name_en "Two dragons coming out of the sea"^^xsd:string ;
+                                                          :name_romanCAN "Soeng Lung Ceot Hoi"^^xsd:string ;
+                                                          :name_romanMAN "Shuang Long Chu Hai"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/two_finger_strike
+<http://EncodingActs.github.io/annotated/MAOcorpus/two_finger_strike> rdf:type owl:NamedIndividual ,
+                                                               <http://EncodingActs.github.io/annotated/MAOcorpus/class:handwork> ;
+                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "二龍搶珠"^^xsd:string ;
+                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Two dragons snatching the eyes"^^xsd:string ;
+                                                      <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "插眼"^^xsd:string ,
+                                                                                                              "還魂飽鶴"^^xsd:string ;
+                                                      rdfs:label "two_finger_strike" ;
+                                                      :name_en "Two finger strike"^^xsd:string ;
+                                                      :name_romanCAN "Ji Lung Coeng Zyu"^^xsd:string ;
+                                                      :name_romanMAN "Er Long Qiang Zhu"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_stance
+<http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_stance> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:stance> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "麒麟馬"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "低裝馬"^^xsd:string ,
+                                                                                                           "跪馬"^^xsd:string ;
+                                                   rdfs:label "unicorn_stance" ;
+                                                   :name_en "Unicorn stance"^^xsd:string ;
+                                                   :name_romanCAN "Kei Leon Maa"^^xsd:string ;
+                                                   :name_romanMAN "Qi Lin Ma"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_steps
+<http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_steps> rdf:type owl:NamedIndividual ,
+                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:stance> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/stepping> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "麒麟步"^^xsd:string ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "歇步"^^xsd:string ;
+                                                  rdfs:label "unicorn_steps" ;
+                                                  :name_en "Unicorn steps"^^xsd:string ;
+                                                  :name_romanCAN "Kei Leon Bou"^^xsd:string ;
+                                                  :name_romanMAN "Qi Lin Bu"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/up_forcing_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/up_forcing_palm> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "攻迫手"^^xsd:string ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Upper knife hand block"^^xsd:string ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "上撐掌"^^xsd:string ,
+                                                                                                            "擋頭"^^xsd:string ;
+                                                    rdfs:label "up_forcing_palm" ;
+                                                    :name_en "Upper forcing palm"^^xsd:string ;
+                                                    :name_romanCAN "Gung Bik Sau"^^xsd:string ;
+                                                    :name_romanMAN "Gong Po Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/upper_swing_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/upper_swing_palm> rdf:type owl:NamedIndividual ,
+                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "上搖"^^xsd:string ;
+                                                     rdfs:label "upper_swing_palm" ;
+                                                     :name_en "Upper swinging palm"^^xsd:string ;
+                                                     :name_romanCAN "Soeng Jiu"^^xsd:string ;
+                                                     :name_romanMAN "Shang Yao"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/upright_body
+<http://EncodingActs.github.io/annotated/MAOcorpus/upright_body> rdf:type owl:NamedIndividual ,
+                                                          <http://EncodingActs.github.io/annotated/MAOcorpus/class:bodywork> ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/bodywork_type> ;
+                                                            owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/body_posture>
+                                                          ] ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/white_crane> ;
+                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "直身"^^xsd:string ;
+                                                 rdfs:label "upright_body" ;
+                                                 :name_en "Upright body"^^xsd:string ;
+                                                 :name_romanCAN "Zik San"^^xsd:string ;
+                                                 :name_romanMAN "Zhi Shen"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/upright_buddha_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/upright_buddha_palm> rdf:type owl:NamedIndividual ,
+                                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/class:hand_shape> ;
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/type_of> <http://EncodingActs.github.io/annotated/MAOcorpus/flat_palm> ;
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "立掌"^^xsd:string ;
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Upright palm"^^xsd:string ;
+                                                        rdfs:label "buddha_palm"^^xsd:string ;
+                                                        :name_en "Buddha palm"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/upward_punches
+<http://EncodingActs.github.io/annotated/MAOcorpus/upward_punches> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:fist_tech> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_fist> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "父子雙隨"^^xsd:string ;
+                                                   rdfs:label "upward_punches" ;
+                                                   :name_en "Twin straight punches with upper facing fists"^^xsd:string ;
+                                                   :name_romanCAN "Fu Zi Soeng Ceoi"^^xsd:string ;
+                                                   :name_romanMAN "Fu Zi Shuang Sui"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/uw_forcing_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/uw_forcing_palm> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "迫手"^^xsd:string ;
+                                                    <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "迫橋"^^xsd:string ,
+                                                                                                            "逼橋"^^xsd:string ;
+                                                    rdfs:label "uw_forcing_palm" ;
+                                                    :name_en "Upward forcing palm"^^xsd:string ;
+                                                    :name_romanCAN "Bik Sau"^^xsd:string ;
+                                                    :name_romanMAN "Po Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/whipping_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/whipping_palm> rdf:type owl:NamedIndividual ,
+                                                           <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "冚手"^^xsd:string ;
+                                                  <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Downward palm block"^^xsd:string ;
+                                                  rdfs:label "dw_whipping_palm"^^xsd:string ;
+                                                  :name_en "Downward whipping palm"^^xsd:string ;
+                                                  :name_romanCAN "Kam Sau"^^xsd:string ;
+                                                  :name_romanMAN "Kan Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/whipping_punch
+<http://EncodingActs.github.io/annotated/MAOcorpus/whipping_punch> rdf:type owl:NamedIndividual ,
+                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/class:fist_tech> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/employs> <http://EncodingActs.github.io/annotated/MAOcorpus/knocking_fist> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/similar_to> <http://EncodingActs.github.io/annotated/MAOcorpus/hook_punch> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                               <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "冚搥"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Spinning fist"^^xsd:string ;
+                                                   <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "鞭搥"^^xsd:string ;
+                                                   rdfs:label "whipping_punch" ;
+                                                   :name_en "Whipping punch"^^xsd:string ;
+                                                   :name_romanCAN "Kam Ceoi"^^xsd:string ;
+                                                   :name_romanMAN "Kan Chui"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu
+<http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> rdf:type owl:NamedIndividual ,
+                                                                <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/teaches> ;
+                                                                  owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/class:breathing_method>
+                                                                ] ;
+                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/has_origin_place> <http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)> ;
+                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/has_principle> <http://EncodingActs.github.io/annotated/MAOcorpus/Dan_Tien_focus> ;
+                                                       <http://EncodingActs.github.io/annotated/MAOcorpus/has_symbol> <http://EncodingActs.github.io/annotated/MAOcorpus/white_crane> ;
+                                                       rdfs:label "White_Crane_kungfu"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/white_crane
+<http://EncodingActs.github.io/annotated/MAOcorpus/white_crane> rdf:type owl:NamedIndividual ,
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/class:symbolic_animal> ;
+                                                rdfs:label "White_crane"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/willow_leaf_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/willow_leaf_palm> rdf:type owl:NamedIndividual ,
+                                                              <http://EncodingActs.github.io/annotated/MAOcorpus/class:hand_shape> ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut> ,
+                                                                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                                 <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "柳葉掌"^^xsd:string ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Vertical knife hand"^^xsd:string ;
+                                                     <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "铙钹手"^^xsd:string ;
+                                                     rdfs:label "willow_leaf_palm" ;
+                                                     :name_en "Willow-leaf palm"^^xsd:string ;
+                                                     :name_romanCAN "Lau Jip Zoeng"^^xsd:string ;
+                                                     :name_romanMAN "Liu Ye Zhang"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/wiping_palm
+<http://EncodingActs.github.io/annotated/MAOcorpus/wiping_palm> rdf:type owl:NamedIndividual ,
+                                                         <http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech> ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/used_in> <http://EncodingActs.github.io/annotated/MAOcorpus/white_Crane_kungfu> ;
+                                                <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "抹手"^^xsd:string ;
+                                                rdfs:label "wiping_palm" ;
+                                                :name_en "Wiping palm"^^xsd:string ;
+                                                :name_romanCAN "Maat Sau"^^xsd:string ;
+                                                :name_romanMAN "Ma Shou"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges
+<http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges> rdf:type owl:NamedIndividual ,
+                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/belongs_to> <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/contains> <http://EncodingActs.github.io/annotated/MAOcorpus/Uprightness> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/hard_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/inch_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/lifting_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/move_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/pressure_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/separating_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/soft_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/stay_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/steady_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/straight_bridge> ,
+                                                                                            <http://EncodingActs.github.io/annotated/MAOcorpus/subdue_bridge> ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh> "洪拳十二橋"^^xsd:string ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en> "Twelve Bridge Hands of Hung Gar"^^xsd:string ;
+                                               <http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh> "十二橋手"^^xsd:string ,
+                                                                                                       "洪拳十二橋手"^^xsd:string ;
+                                               rdfs:label "hg_12_bridges"^^xsd:string ;
+                                               :name_en "Twelve Bridges of Hung Gar"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)
+<http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)> rdf:type owl:NamedIndividual ,
+                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place> ;
+                                                    rdfs:label "YongChun_(place)" .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
+<http://EncodingActs.github.io/annotated/MAOcorpus/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing> rdf:type owl:NamedIndividual ,
+                                                                                        <http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book> ,
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://EncodingActs.github.io/annotated/MAOcorpus/data_format> ;
+                                                                                          owl:someValuesFrom <http://EncodingActs.github.io/annotated/MAOcorpus/ManualBook>
+                                                                                        ] ;
+                                                                               <http://EncodingActs.github.io/annotated/MAOcorpus/documents> <http://EncodingActs.github.io/annotated/MAOcorpus/Gung_Gee_Fook_Fu_Kuen> ,
+                                                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen> ,
+                                                                                                                             <http://EncodingActs.github.io/annotated/MAOcorpus/Lam_Sai_Wing> ;
+                                                                               rdfs:label "Book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing" .
+
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_1
