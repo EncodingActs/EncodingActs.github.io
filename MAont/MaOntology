@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://EncodingActs.github.io/MAont/MaOntology> .
 
-<http://EncodingActs.github.io/MAont/MaOntology> rdf:type owl:Ontology .
+<http://EncodingActs.github.io/MAont/MaOntology/> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
