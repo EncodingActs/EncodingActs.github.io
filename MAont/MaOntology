@@ -669,38 +669,45 @@ mao:class:E21-Person rdf:type owl:Class ;
                                        owl:onProperty mao:resides_in ;
                                        owl:someValuesFrom mao:class:E53-place
                                      ] ;
-                     rdfs:label "E21.Person"^^xsd:string .
+                     rdfs:label "E21.Person"^^xsd:string ;
+                     rdfs:seeAlso <https://www.cidoc-crm.org/entity/e21-person/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E22-man_made_obj
 mao:class:E22-man_made_obj rdf:type owl:Class ;
-                           rdfs:label "E22.Man-made Object"^^xsd:string .
+                           rdfs:label "E22.Man-made Object"^^xsd:string ;
+                           rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e22-man-made-object/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E31-document
 mao:class:E31-document rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ;
-                       rdfs:label "E31.Document"^^xsd:string .
+                       rdfs:label "E31.Document"^^xsd:string ;
+                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e31-document/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E41-appellation
 mao:class:E41-appellation rdf:type owl:Class ;
-                          rdfs:label "E41.Appellation"^^xsd:string .
+                          rdfs:label "E41.Appellation"^^xsd:string ;
+                          rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e41-appellation/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E52-timespan
 mao:class:E52-timespan rdf:type owl:Class ;
-                       rdfs:label "E52.Time-Span"^^xsd:string .
+                       rdfs:label "E52.Time-Span"^^xsd:string ;
+                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e52-time-span/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E53-place
 mao:class:E53-place rdf:type owl:Class ;
-                    rdfs:label "E53.Place"^^xsd:string .
+                    rdfs:label "E53.Place"^^xsd:string ;
+                    rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e53-place/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:E77-persistent_item
 mao:class:E77-persistent_item rdf:type owl:Class ;
-                              rdfs:label "E77.Persistent Item"^^xsd:string .
+                              rdfs:label "E77.Persistent Item"^^xsd:string ;
+                              rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
 
 
 ###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_book
