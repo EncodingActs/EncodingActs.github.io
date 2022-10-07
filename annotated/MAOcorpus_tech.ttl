@@ -6,7 +6,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://EncodingActs.github.io/annotated/MAOcorpus> .
+@base <http://EncodingActs.github.io/annotated/MAOcorpus_tech> .
 
 <http://EncodingActs.github.io/annotated/MAOcorpus> rdf:type owl:Ontology .
 
