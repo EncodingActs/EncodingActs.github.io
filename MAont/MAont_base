@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix MA_ont: <http://EncodingActs.github.io/MAont/MAont_base/#> .
 @prefix ontologies: <http://www.semanticweb.org/yumeng/ontologies/2021/> .
-@prefix webprotege: <http://webprotege.stanford.edu/> .
+@prefix martialmotion: <http://semanticweb.org/ont/martialmotion#> .
 @base <http://EncodingActs.github.io/MAont/MAont_base> .
 
 <http://EncodingActs.github.io/MAont/MAont_base/> rdf:type owl:Ontology ;
