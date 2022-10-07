@@ -1,4 +1,5 @@
-@prefix : <http://EncodingActs.github.io/MAont/MaOntology/> .
+@prefix mao: <http://EncodingActs.github.io/MAont/MaOntology/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,25 +7,42 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://EncodingActs.github.io/MAont/MaOntology> .
 
-<http://EncodingActs.github.io/MAont/MaOntology/> rdf:type owl:Ontology .
+<http://EncodingActs.github.io/MAont/MaOntology> rdf:type owl:Ontology ;
+                                                dct:creator <https://orcid.org/0000-0002-7908-0693> ;
+                                                dct:title "(MAO: The Ontology of Martial Arts" ;
+                                                rdfs:comment "This ontological framework treats martial arts as embodied knowledge in addition to an entity of Intangible Cultural Heritage.".
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://ontologies.org/MA_Ontology/ontoMA_name_zh
-<http://ontologies.org/MA_Ontology/ontoMA_name_zh> rdf:type owl:AnnotationProperty ;
-                                                   rdfs:label "name_zh"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/ontoMA_name_zh
+mao:ontoMA_name_zh rdf:type owl:AnnotationProperty ;
+                   rdfs:label "name_zh"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/ontoMA_otherName_en
-<http://ontologies.org/MA_Ontology/ontoMA_otherName_en> rdf:type owl:AnnotationProperty ;
-                                                        rdfs:label "otherName_en"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/ontoMA_otherName_en
+mao:ontoMA_otherName_en rdf:type owl:AnnotationProperty ;
+                        rdfs:label "otherName_en"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/ontoMA_otherName_zh
-<http://ontologies.org/MA_Ontology/ontoMA_otherName_zh> rdf:type owl:AnnotationProperty ;
-                                                        rdfs:label "otherName_zh"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/ontoMA_otherName_zh
+mao:ontoMA_otherName_zh rdf:type owl:AnnotationProperty ;
+                        rdfs:label "otherName_zh"^^xsd:string .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#name_en
+<http://www.semanticweb.org/owl/owlapi/turtle#name_en> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#name_romanCAN
+<http://www.semanticweb.org/owl/owlapi/turtle#name_romanCAN> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:label "romanCAN"^^xsd:string .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#name_romanMAN
+<http://www.semanticweb.org/owl/owlapi/turtle#name_romanMAN> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:label "pinyin"^^xsd:string .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#baiduURL
@@ -49,1350 +67,1336 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
 <http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
 
 
-###  http://EncodingActs.github.io/MAont/MaOntology#name_en
-:name_en rdf:type owl:AnnotationProperty .
-
-
-###  http://EncodingActs.github.io/MAont/MaOntology#name_romanCAN
-:name_romanCAN rdf:type owl:AnnotationProperty ;
-               rdfs:label "romanCAN"^^xsd:string .
-
-
-###  http://EncodingActs.github.io/MAont/MaOntology#name_romanMAN
-:name_romanMAN rdf:type owl:AnnotationProperty ;
-               rdfs:label "pinyin"^^xsd:string .
-
-
 #################################################################
 #    Datatypes
 #################################################################
 
-###  http://ontologies.org/MA_Ontology/ArtName
-<http://ontologies.org/MA_Ontology/ArtName> rdf:type rdfs:Datatype ;
-                                            rdfs:label "ArtName" .
+###  http://EncodingActs.github.io/MAont/MaOntology/ArtName
+mao:ArtName rdf:type rdfs:Datatype ;
+            rdfs:label "ArtName" .
 
 
-###  http://ontologies.org/MA_Ontology/CN_S_Name
-<http://ontologies.org/MA_Ontology/CN_S_Name> rdf:type rdfs:Datatype ;
-                                              rdfs:label "CN_S_Name" .
+###  http://EncodingActs.github.io/MAont/MaOntology/CN_S_Name
+mao:CN_S_Name rdf:type rdfs:Datatype ;
+              rdfs:label "CN_S_Name" .
 
 
-###  http://ontologies.org/MA_Ontology/CN_T_name
-<http://ontologies.org/MA_Ontology/CN_T_name> rdf:type rdfs:Datatype ;
-                                              rdfs:label "CN_T_name" .
+###  http://EncodingActs.github.io/MAont/MaOntology/CN_T_name
+mao:CN_T_name rdf:type rdfs:Datatype ;
+              rdfs:label "CN_T_name" .
 
 
-###  http://ontologies.org/MA_Ontology/EN_Name
-<http://ontologies.org/MA_Ontology/EN_Name> rdf:type rdfs:Datatype ;
-                                            rdfs:label "EN_Name" .
+###  http://EncodingActs.github.io/MAont/MaOntology/EN_Name
+mao:EN_Name rdf:type rdfs:Datatype ;
+            rdfs:label "EN_Name" .
 
 
-###  http://ontologies.org/MA_Ontology/Image
-<http://ontologies.org/MA_Ontology/Image> rdf:type rdfs:Datatype ;
-                                          rdfs:label "Image" .
+###  http://EncodingActs.github.io/MAont/MaOntology/Image
+mao:Image rdf:type rdfs:Datatype ;
+          rdfs:label "Image" .
 
 
-###  http://ontologies.org/MA_Ontology/ManualBook
-<http://ontologies.org/MA_Ontology/ManualBook> rdf:type rdfs:Datatype ;
-                                               rdfs:label "ManualBook" .
+###  http://EncodingActs.github.io/MAont/MaOntology/ManualBook
+mao:ManualBook rdf:type rdfs:Datatype ;
+               rdfs:label "ManualBook" .
 
 
-###  http://ontologies.org/MA_Ontology/MoCap
-<http://ontologies.org/MA_Ontology/MoCap> rdf:type rdfs:Datatype ;
-                                          rdfs:label "MoCap" .
+###  http://EncodingActs.github.io/MAont/MaOntology/MoCap
+mao:MoCap rdf:type rdfs:Datatype ;
+          rdfs:label "MoCap" .
 
 
-###  http://ontologies.org/MA_Ontology/Texts
-<http://ontologies.org/MA_Ontology/Texts> rdf:type rdfs:Datatype ;
-                                          rdfs:label "Texts" .
+###  http://EncodingActs.github.io/MAont/MaOntology/Texts
+mao:Texts rdf:type rdfs:Datatype ;
+          rdfs:label "Texts" .
 
 
-###  http://ontologies.org/MA_Ontology/Video
-<http://ontologies.org/MA_Ontology/Video> rdf:type rdfs:Datatype ;
-                                          rdfs:label "Video" .
+###  http://EncodingActs.github.io/MAont/MaOntology/Video
+mao:Video rdf:type rdfs:Datatype ;
+          rdfs:label "Video" .
 
 
-###  http://ontologies.org/MA_Ontology/attack_control
-<http://ontologies.org/MA_Ontology/attack_control> rdf:type rdfs:Datatype .
+###  http://EncodingActs.github.io/MAont/MaOntology/attack_control
+mao:attack_control rdf:type rdfs:Datatype .
 
 
-###  http://ontologies.org/MA_Ontology/attack_n_defend
-<http://ontologies.org/MA_Ontology/attack_n_defend> rdf:type rdfs:Datatype ;
-                                                    rdfs:label "attack_n_defend" .
+###  http://EncodingActs.github.io/MAont/MaOntology/attack_n_defend
+mao:attack_n_defend rdf:type rdfs:Datatype ;
+                    rdfs:label "attack_n_defend" .
 
 
-###  http://ontologies.org/MA_Ontology/bladed_weapon
-<http://ontologies.org/MA_Ontology/bladed_weapon> rdf:type rdfs:Datatype .
+###  http://EncodingActs.github.io/MAont/MaOntology/bladed_weapon
+mao:bladed_weapon rdf:type rdfs:Datatype .
 
 
-###  http://ontologies.org/MA_Ontology/body_manipulation
-<http://ontologies.org/MA_Ontology/body_manipulation> rdf:type rdfs:Datatype ;
-                                                      rdfs:label "body_manipulation" .
+###  http://EncodingActs.github.io/MAont/MaOntology/body_manipulation
+mao:body_manipulation rdf:type rdfs:Datatype ;
+                      rdfs:label "body_manipulation" .
 
 
-###  http://ontologies.org/MA_Ontology/body_movement
-<http://ontologies.org/MA_Ontology/body_movement> rdf:type rdfs:Datatype ;
-                                                  rdfs:label "body_movement" .
+###  http://EncodingActs.github.io/MAont/MaOntology/body_movement
+mao:body_movement rdf:type rdfs:Datatype ;
+                  rdfs:label "body_movement" .
 
 
-###  http://ontologies.org/MA_Ontology/body_positioning
-<http://ontologies.org/MA_Ontology/body_positioning> rdf:type rdfs:Datatype ;
-                                                     rdfs:label "body_positioning" .
+###  http://EncodingActs.github.io/MAont/MaOntology/body_positioning
+mao:body_positioning rdf:type rdfs:Datatype ;
+                     rdfs:label "body_positioning" .
 
 
-###  http://ontologies.org/MA_Ontology/body_posture
-<http://ontologies.org/MA_Ontology/body_posture> rdf:type rdfs:Datatype ;
-                                                 rdfs:label "body_posture" .
+###  http://EncodingActs.github.io/MAont/MaOntology/body_posture
+mao:body_posture rdf:type rdfs:Datatype ;
+                 rdfs:label "body_posture" .
 
 
-###  http://ontologies.org/MA_Ontology/distance_management
-<http://ontologies.org/MA_Ontology/distance_management> rdf:type rdfs:Datatype .
+###  http://EncodingActs.github.io/MAont/MaOntology/distance_management
+mao:distance_management rdf:type rdfs:Datatype .
 
 
-###  http://ontologies.org/MA_Ontology/distance_timing
-<http://ontologies.org/MA_Ontology/distance_timing> rdf:type rdfs:Datatype ;
-                                                    rdfs:label "distance_timing" .
+###  http://EncodingActs.github.io/MAont/MaOntology/distance_timing
+mao:distance_timing rdf:type rdfs:Datatype ;
+                    rdfs:label "distance_timing" .
 
 
-###  http://ontologies.org/MA_Ontology/empty_hand_set
-<http://ontologies.org/MA_Ontology/empty_hand_set> rdf:type rdfs:Datatype ;
-                                                   rdfs:label "empty_hand_set" .
+###  http://EncodingActs.github.io/MAont/MaOntology/empty_hand_set
+mao:empty_hand_set rdf:type rdfs:Datatype ;
+                   rdfs:label "empty_hand_set" .
 
 
-###  http://ontologies.org/MA_Ontology/grading_system
-<http://ontologies.org/MA_Ontology/grading_system> rdf:type rdfs:Datatype ;
-                                                   rdfs:label "grading_system" .
+###  http://EncodingActs.github.io/MAont/MaOntology/grading_system
+mao:grading_system rdf:type rdfs:Datatype ;
+                   rdfs:label "grading_system" .
 
 
-###  http://ontologies.org/MA_Ontology/name_originalLang
-<http://ontologies.org/MA_Ontology/name_originalLang> rdf:type rdfs:Datatype ;
-                                                      rdfs:label "name_originalLang" .
+###  http://EncodingActs.github.io/MAont/MaOntology/name_originalLang
+mao:name_originalLang rdf:type rdfs:Datatype ;
+                      rdfs:label "name_originalLang" .
 
 
-###  http://ontologies.org/MA_Ontology/positioning
-<http://ontologies.org/MA_Ontology/positioning> rdf:type rdfs:Datatype ;
-                                                rdfs:label "positioning" .
+###  http://EncodingActs.github.io/MAont/MaOntology/positioning
+mao:positioning rdf:type rdfs:Datatype ;
+                rdfs:label "positioning" .
 
 
-###  http://ontologies.org/MA_Ontology/ranking_system
-<http://ontologies.org/MA_Ontology/ranking_system> rdf:type rdfs:Datatype ;
-                                                   rdfs:label "ranking_system" .
+###  http://EncodingActs.github.io/MAont/MaOntology/ranking_system
+mao:ranking_system rdf:type rdfs:Datatype ;
+                   rdfs:label "ranking_system" .
 
 
-###  http://ontologies.org/MA_Ontology/reputation
-<http://ontologies.org/MA_Ontology/reputation> rdf:type rdfs:Datatype ;
-                                               rdfs:label "reputation" .
+###  http://EncodingActs.github.io/MAont/MaOntology/reputation
+mao:reputation rdf:type rdfs:Datatype ;
+               rdfs:label "reputation" .
 
 
-###  http://ontologies.org/MA_Ontology/spaer_weapon
-<http://ontologies.org/MA_Ontology/spaer_weapon> rdf:type rdfs:Datatype ;
-                                                 rdfs:label "spaer_weapon" .
+###  http://EncodingActs.github.io/MAont/MaOntology/spaer_weapon
+mao:spaer_weapon rdf:type rdfs:Datatype ;
+                 rdfs:label "spaer_weapon" .
 
 
-###  http://ontologies.org/MA_Ontology/sparring_set
-<http://ontologies.org/MA_Ontology/sparring_set> rdf:type rdfs:Datatype .
+###  http://EncodingActs.github.io/MAont/MaOntology/sparring_set
+mao:sparring_set rdf:type rdfs:Datatype .
 
 
-###  http://ontologies.org/MA_Ontology/staff_weapon
-<http://ontologies.org/MA_Ontology/staff_weapon> rdf:type rdfs:Datatype ;
-                                                 rdfs:label "staff_weapon" .
+###  http://EncodingActs.github.io/MAont/MaOntology/staff_weapon
+mao:staff_weapon rdf:type rdfs:Datatype ;
+                 rdfs:label "staff_weapon" .
 
 
-###  http://ontologies.org/MA_Ontology/weapon_set
-<http://ontologies.org/MA_Ontology/weapon_set> rdf:type rdfs:Datatype .
+###  http://EncodingActs.github.io/MAont/MaOntology/weapon_set
+mao:weapon_set rdf:type rdfs:Datatype .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://ontologies.org/MA_Ontology/adapts
-<http://ontologies.org/MA_Ontology/adapts> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                           rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                      <http://ontologies.org/MA_Ontology/class:MA_syllabus> ,
-                                                      <http://ontologies.org/MA_Ontology/class:armament> ,
-                                                      <http://ontologies.org/MA_Ontology/class:trainig_tool> ,
-                                                      <http://ontologies.org/MA_Ontology/class:training_method> ;
-                                           rdfs:label "adapts" .
-
-
-###  http://ontologies.org/MA_Ontology/adopts
-<http://ontologies.org/MA_Ontology/adopts> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_institute> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_syllabus> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                           rdfs:range <http://ontologies.org/MA_Ontology/class:grading_system> ,
-                                                      <http://ontologies.org/MA_Ontology/class:training_method> ;
-                                           rdfs:label "adopts" .
-
-
-###  http://ontologies.org/MA_Ontology/assessed_by
-<http://ontologies.org/MA_Ontology/assessed_by> rdf:type owl:ObjectProperty ;
-                                                rdfs:label "assessed_by" .
-
-
-###  http://ontologies.org/MA_Ontology/belongs_to
-<http://ontologies.org/MA_Ontology/belongs_to> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                           <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                               rdfs:label "belongs_to" .
-
-
-###  http://ontologies.org/MA_Ontology/contains
-<http://ontologies.org/MA_Ontology/contains> rdf:type owl:ObjectProperty ;
-                                             rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_form> ,
-                                                         <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                             rdfs:range <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                             rdfs:label "contains" .
+###  http://EncodingActs.github.io/MAont/MaOntology/adapts
+mao:adapts rdf:type owl:ObjectProperty ;
+           rdfs:domain mao:class:MA_syllabus ;
+           rdfs:range mao:class:MA_style ,
+                      mao:class:MA_syllabus ,
+                      mao:class:armament ,
+                      mao:class:trainig_tool ,
+                      mao:class:training_method ;
+           rdfs:label "adapts" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/adopts
+mao:adopts rdf:type owl:ObjectProperty ;
+           rdfs:domain mao:class:MA_institute ,
+                       mao:class:MA_style ,
+                       mao:class:MA_syllabus ,
+                       mao:class:MA_system ;
+           rdfs:range mao:class:grading_system ,
+                      mao:class:training_method ;
+           rdfs:label "adopts" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/assessed_by
+mao:assessed_by rdf:type owl:ObjectProperty ;
+                rdfs:label "assessed_by" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/belongs_to
+mao:belongs_to rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_style ,
+                           mao:class:MA_system ;
+               rdfs:range mao:class:MA_system ;
+               rdfs:label "belongs_to" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/contains
+mao:contains rdf:type owl:ObjectProperty ;
+             rdfs:domain mao:class:MA_form ,
+                         mao:class:MA_syllabus ;
+             rdfs:range mao:class:MA_technique ;
+             rdfs:label "contains" .
 
 
-###  http://ontologies.org/MA_Ontology/creates
-<http://ontologies.org/MA_Ontology/creates> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                            rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_syllabus> ,
-                                                       <http://ontologies.org/MA_Ontology/class:armament> ,
-                                                       <http://ontologies.org/MA_Ontology/class:trainig_tool> ,
-                                                       <http://ontologies.org/MA_Ontology/class:training_method> ;
-                                            rdfs:label "creates" .
+###  http://EncodingActs.github.io/MAont/MaOntology/creates
+mao:creates rdf:type owl:ObjectProperty ;
+            rdfs:domain mao:class:MA_syllabus ;
+            rdfs:range mao:class:MA_style ,
+                       mao:class:MA_syllabus ,
+                       mao:class:armament ,
+                       mao:class:trainig_tool ,
+                       mao:class:training_method ;
+            rdfs:label "creates" .
 
-
-###  http://ontologies.org/MA_Ontology/developed_from
-<http://ontologies.org/MA_Ontology/developed_from> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ;
-                                                   rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ;
-                                                   rdfs:label "developed_from"^^xsd:string .
+
+###  http://EncodingActs.github.io/MAont/MaOntology/developed_from
+mao:developed_from rdf:type owl:ObjectProperty ;
+                   rdfs:domain mao:class:MA_style ;
+                   rdfs:range mao:class:MA_style ;
+                   rdfs:label "developed_from"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/documents
-<http://ontologies.org/MA_Ontology/documents> rdf:type owl:ObjectProperty ;
-                                              rdfs:label "documents" .
+###  http://EncodingActs.github.io/MAont/MaOntology/documents
+mao:documents rdf:type owl:ObjectProperty ;
+              rdfs:label "documents" .
 
 
-###  http://ontologies.org/MA_Ontology/employs
-<http://ontologies.org/MA_Ontology/employs> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                            rdfs:range <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                            rdfs:label "employs" .
+###  http://EncodingActs.github.io/MAont/MaOntology/employs
+mao:employs rdf:type owl:ObjectProperty ;
+            rdfs:domain mao:class:MA_technique ;
+            rdfs:range mao:class:MA_technique ;
+            rdfs:label "employs" .
 
 
-###  http://ontologies.org/MA_Ontology/has
-<http://ontologies.org/MA_Ontology/has> rdf:type owl:ObjectProperty ;
-                                        rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                    <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                        rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                   <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                        rdfs:label "has" .
+###  http://EncodingActs.github.io/MAont/MaOntology/has
+mao:has rdf:type owl:ObjectProperty ;
+        rdfs:domain mao:class:MA_style ,
+                    mao:class:MA_system ;
+        rdfs:range mao:class:MA_style ,
+                   mao:class:MA_syllabus ;
+        rdfs:label "has" .
 
 
-###  http://ontologies.org/MA_Ontology/has_intent
-<http://ontologies.org/MA_Ontology/has_intent> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_form> ,
-                                                           <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_tactic> ;
-                                               rdfs:label "has_intent" .
+###  http://EncodingActs.github.io/MAont/MaOntology/has_intent
+mao:has_intent rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_form ,
+                           mao:class:MA_technique ;
+               rdfs:range mao:class:MA_tactic ;
+               rdfs:label "has_intent" .
 
 
-###  http://ontologies.org/MA_Ontology/has_origin_place
-<http://ontologies.org/MA_Ontology/has_origin_place> rdf:type owl:ObjectProperty ;
-                                                     rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                                 <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                                     rdfs:range <http://ontologies.org/MA_Ontology/class:E53-place> ;
-                                                     rdfs:label "has_origin_place" .
+###  http://EncodingActs.github.io/MAont/MaOntology/has_origin_place
+mao:has_origin_place rdf:type owl:ObjectProperty ;
+                     rdfs:domain mao:class:MA_style ,
+                                 mao:class:MA_system ;
+                     rdfs:range mao:class:E53-place ;
+                     rdfs:label "has_origin_place" .
 
 
-###  http://ontologies.org/MA_Ontology/has_principle
-<http://ontologies.org/MA_Ontology/has_principle> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                              <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                                  rdfs:range <http://ontologies.org/MA_Ontology/class:MA_principle> ;
-                                                  rdfs:label "has_principle" .
+###  http://EncodingActs.github.io/MAont/MaOntology/has_principle
+mao:has_principle rdf:type owl:ObjectProperty ;
+                  rdfs:domain mao:class:MA_style ,
+                              mao:class:MA_system ;
+                  rdfs:range mao:class:MA_principle ;
+                  rdfs:label "has_principle" .
 
 
-###  http://ontologies.org/MA_Ontology/has_symbol
-<http://ontologies.org/MA_Ontology/has_symbol> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                           <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:symbolic_animal> ;
-                                               rdfs:label "has_symbol" .
+###  http://EncodingActs.github.io/MAont/MaOntology/has_symbol
+mao:has_symbol rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_style ,
+                           mao:class:MA_system ;
+               rdfs:range mao:class:symbolic_animal ;
+               rdfs:label "has_symbol" .
 
 
-###  http://ontologies.org/MA_Ontology/identified_by
-<http://ontologies.org/MA_Ontology/identified_by> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontologies.org/MA_Ontology/class:E21-Person> ;
-                                                  rdfs:range <http://ontologies.org/MA_Ontology/class:E41-appellation> ;
-                                                  rdfs:label "identified_by" .
+###  http://EncodingActs.github.io/MAont/MaOntology/identified_by
+mao:identified_by rdf:type owl:ObjectProperty ;
+                  rdfs:domain mao:class:E21-Person ;
+                  rdfs:range mao:class:E41-appellation ;
+                  rdfs:label "identified_by" .
 
 
-###  http://ontologies.org/MA_Ontology/influences
-<http://ontologies.org/MA_Ontology/influences> rdf:type owl:ObjectProperty ;
-                                               rdfs:subPropertyOf owl:topObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                           <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                          <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                               rdfs:label "influences" .
+###  http://EncodingActs.github.io/MAont/MaOntology/influences
+mao:influences rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain mao:class:MA_style ,
+                           mao:class:MA_system ;
+               rdfs:range mao:class:MA_style ,
+                          mao:class:MA_system ;
+               rdfs:label "influences" .
 
 
-###  http://ontologies.org/MA_Ontology/is
-<http://ontologies.org/MA_Ontology/is> rdf:type owl:ObjectProperty ;
-                                       rdfs:label "is" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is
+mao:is rdf:type owl:ObjectProperty ;
+       rdfs:label "is" .
 
 
-###  http://ontologies.org/MA_Ontology/is_child_of
-<http://ontologies.org/MA_Ontology/is_child_of> rdf:type owl:ObjectProperty ;
-                                                rdfs:label "is_child_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_child_of
+mao:is_child_of rdf:type owl:ObjectProperty ;
+                rdfs:label "is_child_of" .
 
 
-###  http://ontologies.org/MA_Ontology/is_clan_member_of
-<http://ontologies.org/MA_Ontology/is_clan_member_of> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                      rdfs:range <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                      rdfs:label "is_clan_member_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_clan_member_of
+mao:is_clan_member_of rdf:type owl:ObjectProperty ;
+                      rdfs:domain mao:class:MA_syllabus ;
+                      rdfs:range mao:class:MA_syllabus ;
+                      rdfs:label "is_clan_member_of" .
 
 
-###  http://ontologies.org/MA_Ontology/is_form_in
-<http://ontologies.org/MA_Ontology/is_form_in> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_form> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/Form_set> ;
-                                               rdfs:label "is_form_in" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_form_in
+mao:is_form_in rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_form ;
+               rdfs:range mao:Form_set ;
+               rdfs:label "is_form_in" .
 
 
-###  http://ontologies.org/MA_Ontology/is_master_of
-<http://ontologies.org/MA_Ontology/is_master_of> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                 rdfs:range <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                 rdfs:label "is_master_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_master_of
+mao:is_master_of rdf:type owl:ObjectProperty ;
+                 rdfs:domain mao:class:MA_syllabus ;
+                 rdfs:range mao:class:MA_syllabus ;
+                 rdfs:label "is_master_of" .
 
 
-###  http://ontologies.org/MA_Ontology/is_parent_of
-<http://ontologies.org/MA_Ontology/is_parent_of> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                 rdfs:range <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                 rdfs:label "is_parent_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_parent_of
+mao:is_parent_of rdf:type owl:ObjectProperty ;
+                 rdfs:domain mao:class:MA_syllabus ;
+                 rdfs:range mao:class:MA_syllabus ;
+                 rdfs:label "is_parent_of" .
 
 
-###  http://ontologies.org/MA_Ontology/is_student_of
-<http://ontologies.org/MA_Ontology/is_student_of> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                  rdfs:range <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                  rdfs:label "is_student_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/is_student_of
+mao:is_student_of rdf:type owl:ObjectProperty ;
+                  rdfs:domain mao:class:MA_syllabus ;
+                  rdfs:range mao:class:MA_syllabus ;
+                  rdfs:label "is_student_of" .
 
 
-###  http://ontologies.org/MA_Ontology/lives_in_ts
-<http://ontologies.org/MA_Ontology/lives_in_ts> rdf:type owl:ObjectProperty ;
-                                                rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                                rdfs:range <http://ontologies.org/MA_Ontology/class:E52-timespan> ;
-                                                rdfs:label "lives_in_ts" .
+###  http://EncodingActs.github.io/MAont/MaOntology/lives_in_ts
+mao:lives_in_ts rdf:type owl:ObjectProperty ;
+                rdfs:domain mao:class:MA_syllabus ;
+                rdfs:range mao:class:E52-timespan ;
+                rdfs:label "lives_in_ts" .
 
 
-###  http://ontologies.org/MA_Ontology/located_at
-<http://ontologies.org/MA_Ontology/located_at> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_institute> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:E53-place> ;
-                                               rdfs:label "located_at"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/located_at
+mao:located_at rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_institute ;
+               rdfs:range mao:class:E53-place ;
+               rdfs:label "located_at"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/practiced_in
-<http://ontologies.org/MA_Ontology/practiced_in> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://ontologies.org/MA_Ontology/Form_set> ;
-                                                 rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ;
-                                                 rdfs:label "practiced_in" .
+###  http://EncodingActs.github.io/MAont/MaOntology/practiced_in
+mao:practiced_in rdf:type owl:ObjectProperty ;
+                 rdfs:domain mao:Form_set ;
+                 rdfs:range mao:class:MA_style ;
+                 rdfs:label "practiced_in" .
 
 
-###  http://ontologies.org/MA_Ontology/practices
-<http://ontologies.org/MA_Ontology/practices> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                              rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                         <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                              rdfs:label "practices" .
+###  http://EncodingActs.github.io/MAont/MaOntology/practices
+mao:practices rdf:type owl:ObjectProperty ;
+              rdfs:domain mao:class:MA_syllabus ;
+              rdfs:range mao:class:MA_style ,
+                         mao:class:MA_system ;
+              rdfs:label "practices" .
 
 
-###  http://ontologies.org/MA_Ontology/represents
-<http://ontologies.org/MA_Ontology/represents> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_form> ,
-                                                           <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_principle> ;
-                                               rdfs:label "represents" .
+###  http://EncodingActs.github.io/MAont/MaOntology/represents
+mao:represents rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_form ,
+                           mao:class:MA_technique ;
+               rdfs:range mao:class:MA_principle ;
+               rdfs:label "represents" .
 
 
-###  http://ontologies.org/MA_Ontology/resides_in
-<http://ontologies.org/MA_Ontology/resides_in> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:E53-place> ;
-                                               rdfs:label "resides_in" .
+###  http://EncodingActs.github.io/MAont/MaOntology/resides_in
+mao:resides_in rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_syllabus ;
+               rdfs:range mao:class:E53-place ;
+               rdfs:label "resides_in" .
 
 
-###  http://ontologies.org/MA_Ontology/similar_form_to
-<http://ontologies.org/MA_Ontology/similar_form_to> rdf:type owl:ObjectProperty ;
-                                                    rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/similar_to> ;
-                                                    rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_form> ;
-                                                    rdfs:range <http://ontologies.org/MA_Ontology/class:MA_form> ;
-                                                    rdfs:label "similar_form_to" .
+###  http://EncodingActs.github.io/MAont/MaOntology/similar_form_to
+mao:similar_form_to rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf mao:similar_to ;
+                    rdfs:domain mao:class:MA_form ;
+                    rdfs:range mao:class:MA_form ;
+                    rdfs:label "similar_form_to" .
 
 
-###  http://ontologies.org/MA_Ontology/similar_set_of
-<http://ontologies.org/MA_Ontology/similar_set_of> rdf:type owl:ObjectProperty ;
-                                                   rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/similar_to> ;
-                                                   rdfs:domain <http://ontologies.org/MA_Ontology/Form_set> ;
-                                                   rdfs:range <http://ontologies.org/MA_Ontology/Form_set> ;
-                                                   rdfs:label "similar_set_to"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/similar_set_of
+mao:similar_set_of rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf mao:similar_to ;
+                   rdfs:domain mao:Form_set ;
+                   rdfs:range mao:Form_set ;
+                   rdfs:label "similar_set_to"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/similar_to
-<http://ontologies.org/MA_Ontology/similar_to> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                               rdfs:label "similar_to" .
+###  http://EncodingActs.github.io/MAont/MaOntology/similar_to
+mao:similar_to rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_technique ;
+               rdfs:range mao:class:MA_technique ;
+               rdfs:label "similar_to" .
 
 
-###  http://ontologies.org/MA_Ontology/simulates
-<http://ontologies.org/MA_Ontology/simulates> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://ontologies.org/MA_Ontology/class:trainig_tool> ;
-                                              rdfs:range <http://ontologies.org/MA_Ontology/class:armament> ;
-                                              rdfs:label "simulates"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/simulates
+mao:simulates rdf:type owl:ObjectProperty ;
+              rdfs:domain mao:class:trainig_tool ;
+              rdfs:range mao:class:armament ;
+              rdfs:label "simulates"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/taught_at
-<http://ontologies.org/MA_Ontology/taught_at> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                          <http://ontologies.org/MA_Ontology/class:MA_syllabus> ,
-                                                          <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                              rdfs:range <http://ontologies.org/MA_Ontology/class:MA_institute> ;
-                                              rdfs:label "taught_at"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/taught_at
+mao:taught_at rdf:type owl:ObjectProperty ;
+              rdfs:domain mao:class:MA_style ,
+                          mao:class:MA_syllabus ,
+                          mao:class:MA_system ;
+              rdfs:range mao:class:MA_institute ;
+              rdfs:label "taught_at"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/teaches
-<http://ontologies.org/MA_Ontology/teaches> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                            rdfs:range <http://ontologies.org/MA_Ontology/Form_set> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                            rdfs:label "teaches" .
+###  http://EncodingActs.github.io/MAont/MaOntology/teaches
+mao:teaches rdf:type owl:ObjectProperty ;
+            rdfs:domain mao:class:MA_syllabus ;
+            rdfs:range mao:Form_set ,
+                       mao:class:MA_style ,
+                       mao:class:MA_system ;
+            rdfs:label "teaches" .
 
 
-###  http://ontologies.org/MA_Ontology/teaches_at
-<http://ontologies.org/MA_Ontology/teaches_at> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_syllabus> ;
-                                               rdfs:range <http://ontologies.org/MA_Ontology/class:MA_institute> ;
-                                               rdfs:label "teaches_at" .
+###  http://EncodingActs.github.io/MAont/MaOntology/teaches_at
+mao:teaches_at rdf:type owl:ObjectProperty ;
+               rdfs:domain mao:class:MA_syllabus ;
+               rdfs:range mao:class:MA_institute ;
+               rdfs:label "teaches_at" .
 
 
-###  http://ontologies.org/MA_Ontology/trains
-<http://ontologies.org/MA_Ontology/trains> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <http://ontologies.org/MA_Ontology/class:training_method> ;
-                                           rdfs:range <http://ontologies.org/MA_Ontology/class:MA_technique> ;
-                                           rdfs:label "trains" .
+###  http://EncodingActs.github.io/MAont/MaOntology/trains
+mao:trains rdf:type owl:ObjectProperty ;
+           rdfs:domain mao:class:training_method ;
+           rdfs:range mao:class:MA_technique ;
+           rdfs:label "trains" .
 
 
-###  http://ontologies.org/MA_Ontology/type_of
-<http://ontologies.org/MA_Ontology/type_of> rdf:type owl:ObjectProperty ;
-                                            rdfs:label "type_of" .
+###  http://EncodingActs.github.io/MAont/MaOntology/type_of
+mao:type_of rdf:type owl:ObjectProperty ;
+            rdfs:label "type_of" .
 
 
-###  http://ontologies.org/MA_Ontology/used_in
-<http://ontologies.org/MA_Ontology/used_in> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                        <http://ontologies.org/MA_Ontology/class:armament> ,
-                                                        <http://ontologies.org/MA_Ontology/class:trainig_tool> ;
-                                            rdfs:range <http://ontologies.org/MA_Ontology/class:MA_style> ,
-                                                       <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                            rdfs:label "used_in" .
+###  http://EncodingActs.github.io/MAont/MaOntology/used_in
+mao:used_in rdf:type owl:ObjectProperty ;
+            rdfs:domain mao:class:MA_technique ,
+                        mao:class:armament ,
+                        mao:class:trainig_tool ;
+            rdfs:range mao:class:MA_style ,
+                       mao:class:MA_system ;
+            rdfs:label "used_in" .
 
 
-###  http://ontologies.org/MA_Ontology/uses
-<http://ontologies.org/MA_Ontology/uses> rdf:type owl:ObjectProperty ;
-                                         rdfs:label "uses" .
+###  http://EncodingActs.github.io/MAont/MaOntology/uses
+mao:uses rdf:type owl:ObjectProperty ;
+         rdfs:label "uses" .
 
 
-###  http://ontologies.org/MA_Ontology/valid_for
-<http://ontologies.org/MA_Ontology/valid_for> rdf:type owl:ObjectProperty ;
-                                              rdfs:domain <http://ontologies.org/MA_Ontology/class:grading_system> ;
-                                              rdfs:range <http://ontologies.org/MA_Ontology/class:MA_system> ;
-                                              rdfs:label "valid_for" .
+###  http://EncodingActs.github.io/MAont/MaOntology/valid_for
+mao:valid_for rdf:type owl:ObjectProperty ;
+              rdfs:domain mao:class:grading_system ;
+              rdfs:range mao:class:MA_system ;
+              rdfs:label "valid_for" .
 
 
-###  http://ontologies.org/MA_Ontology/with
-<http://ontologies.org/MA_Ontology/with> rdf:type owl:ObjectProperty ;
-                                         rdfs:label "with" .
+###  http://EncodingActs.github.io/MAont/MaOntology/with
+mao:with rdf:type owl:ObjectProperty ;
+         rdfs:label "with" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://ontologies.org/MA_Ontology/appellation_type
-<http://ontologies.org/MA_Ontology/appellation_type> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                     rdfs:domain <http://ontologies.org/MA_Ontology/class:E41-appellation> ;
-                                                     rdfs:range <http://ontologies.org/MA_Ontology/ArtName> ,
-                                                                <http://ontologies.org/MA_Ontology/EN_Name> ,
-                                                                <http://ontologies.org/MA_Ontology/name_originalLang> ;
-                                                     rdfs:label "appellation_type" .
+###  http://EncodingActs.github.io/MAont/MaOntology/appellation_type
+mao:appellation_type rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf mao:dataProperties ;
+                     rdfs:domain mao:class:E41-appellation ;
+                     rdfs:range mao:ArtName ,
+                                mao:EN_Name ,
+                                mao:name_originalLang ;
+                     rdfs:label "appellation_type" .
 
 
-###  http://ontologies.org/MA_Ontology/assess_type
-<http://ontologies.org/MA_Ontology/assess_type> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                rdfs:domain <http://ontologies.org/MA_Ontology/class:grading_system> ;
-                                                rdfs:range <http://ontologies.org/MA_Ontology/grading_system> ,
-                                                           <http://ontologies.org/MA_Ontology/ranking_system> ,
-                                                           <http://ontologies.org/MA_Ontology/reputation> ;
-                                                rdfs:label "assess_type" .
+###  http://EncodingActs.github.io/MAont/MaOntology/assess_type
+mao:assess_type rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf mao:dataProperties ;
+                rdfs:domain mao:class:grading_system ;
+                rdfs:range mao:grading_system ,
+                           mao:ranking_system ,
+                           mao:reputation ;
+                rdfs:label "assess_type" .
 
 
-###  http://ontologies.org/MA_Ontology/attack_defend_tactic
-<http://ontologies.org/MA_Ontology/attack_defend_tactic> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                         rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_tactic> ;
-                                                         rdfs:range <http://ontologies.org/MA_Ontology/attack_n_defend> ,
-                                                                    <http://ontologies.org/MA_Ontology/distance_management> ;
-                                                         rdfs:label "tactic_type"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/attack_defend_tactic
+mao:attack_defend_tactic rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf mao:dataProperties ;
+                         rdfs:domain mao:class:MA_tactic ;
+                         rdfs:range mao:attack_n_defend ,
+                                    mao:distance_management ;
+                         rdfs:label "tactic_type"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/bodywork_type
-<http://ontologies.org/MA_Ontology/bodywork_type> rdf:type owl:DatatypeProperty ;
-                                                  rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                  rdfs:domain <http://ontologies.org/MA_Ontology/class:bodywork> ;
-                                                  rdfs:range <http://ontologies.org/MA_Ontology/body_manipulation> ,
-                                                             <http://ontologies.org/MA_Ontology/body_movement> ,
-                                                             <http://ontologies.org/MA_Ontology/body_positioning> ,
-                                                             <http://ontologies.org/MA_Ontology/body_posture> ;
-                                                  rdfs:label "bodywork_type" .
+###  http://EncodingActs.github.io/MAont/MaOntology/bodywork_type
+mao:bodywork_type rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf mao:dataProperties ;
+                  rdfs:domain mao:class:bodywork ;
+                  rdfs:range mao:body_manipulation ,
+                             mao:body_movement ,
+                             mao:body_positioning ,
+                             mao:body_posture ;
+                  rdfs:label "bodywork_type" .
 
 
-###  http://ontologies.org/MA_Ontology/dataProperties
-<http://ontologies.org/MA_Ontology/dataProperties> rdf:type owl:DatatypeProperty .
+###  http://EncodingActs.github.io/MAont/MaOntology/dataProperties
+mao:dataProperties rdf:type owl:DatatypeProperty .
 
 
-###  http://ontologies.org/MA_Ontology/data_format
-<http://ontologies.org/MA_Ontology/data_format> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                rdf:type owl:FunctionalProperty ;
-                                                rdfs:domain <http://ontologies.org/MA_Ontology/class:MA_book> ;
-                                                rdfs:range <http://ontologies.org/MA_Ontology/Image> ,
-                                                           <http://ontologies.org/MA_Ontology/ManualBook> ,
-                                                           <http://ontologies.org/MA_Ontology/MoCap> ,
-                                                           <http://ontologies.org/MA_Ontology/Texts> ,
-                                                           <http://ontologies.org/MA_Ontology/Video> ;
-                                                rdfs:label "doc_format"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/data_format
+mao:data_format rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf mao:dataProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain mao:class:MA_book ;
+                rdfs:range mao:Image ,
+                           mao:ManualBook ,
+                           mao:MoCap ,
+                           mao:Texts ,
+                           mao:Video ;
+                rdfs:label "doc_format"^^xsd:string .
 
 
-###  http://ontologies.org/MA_Ontology/form_type
-<http://ontologies.org/MA_Ontology/form_type> rdf:type owl:DatatypeProperty ;
-                                              rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                              rdfs:domain <http://ontologies.org/MA_Ontology/Form_set> ;
-                                              rdfs:range <http://ontologies.org/MA_Ontology/empty_hand_set> ,
-                                                         <http://ontologies.org/MA_Ontology/sparring_set> ,
-                                                         <http://ontologies.org/MA_Ontology/weapon_set> ;
-                                              rdfs:label "form_type" .
+###  http://EncodingActs.github.io/MAont/MaOntology/form_type
+mao:form_type rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf mao:dataProperties ;
+              rdfs:domain mao:Form_set ;
+              rdfs:range mao:empty_hand_set ,
+                         mao:sparring_set ,
+                         mao:weapon_set ;
+              rdfs:label "form_type" .
 
 
-###  http://ontologies.org/MA_Ontology/timespan
-<http://ontologies.org/MA_Ontology/timespan> rdf:type owl:DatatypeProperty ;
-                                             rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                             rdfs:domain <http://ontologies.org/MA_Ontology/class:E52-timespan> ;
-                                             rdfs:label "timespan" .
+###  http://EncodingActs.github.io/MAont/MaOntology/timespan
+mao:timespan rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf mao:dataProperties ;
+             rdfs:domain mao:class:E52-timespan ;
+             rdfs:label "timespan" .
 
 
-###  http://ontologies.org/MA_Ontology/weapon_type
-<http://ontologies.org/MA_Ontology/weapon_type> rdf:type owl:DatatypeProperty ;
-                                                rdfs:subPropertyOf <http://ontologies.org/MA_Ontology/dataProperties> ;
-                                                rdfs:domain <http://ontologies.org/MA_Ontology/class:armament> ,
-                                                            <http://ontologies.org/MA_Ontology/class:trainig_tool> ;
-                                                rdfs:range <http://ontologies.org/MA_Ontology/bladed_weapon> ,
-                                                           <http://ontologies.org/MA_Ontology/spaer_weapon> ,
-                                                           <http://ontologies.org/MA_Ontology/staff_weapon> ;
-                                                rdfs:label "weapon_type" .
+###  http://EncodingActs.github.io/MAont/MaOntology/weapon_type
+mao:weapon_type rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf mao:dataProperties ;
+                rdfs:domain mao:class:armament ,
+                            mao:class:trainig_tool ;
+                rdfs:range mao:bladed_weapon ,
+                           mao:spaer_weapon ,
+                           mao:staff_weapon ;
+                rdfs:label "weapon_type" .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://ontologies.org/MA_Ontology/Form_set
-<http://ontologies.org/MA_Ontology/Form_set> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:training_method> ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/assessed_by> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                             ] ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/belongs_to> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                             ] ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/contains> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_form>
-                                                             ] ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/practiced_in> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                             ] ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/similar_set_of> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/Form_set>
-                                                             ] ,
-                                                             [ rdf:type owl:Restriction ;
-                                                               owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                               owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                             ] ;
-                                             <http://ontologies.org/MA_Ontology/ontoMA_otherName_en> "Kata"@ja ,
-                                                                                                     "Taolu"^^xsd:string ;
-                                             rdfs:label "form_set"@en ;
-                                             :name_en "Form set"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E21-Person
-<http://ontologies.org/MA_Ontology/class:E21-Person> rdf:type owl:Class ;
-                                                     rdfs:subClassOf owl:Thing ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E22-man_made_obj>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/identified_by> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E41-appellation>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/lives_in_ts> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E52-timespan>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/resides_in> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                     ] ;
-                                                     rdfs:label "E21.Person"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E22-man_made_obj
-<http://ontologies.org/MA_Ontology/class:E22-man_made_obj> rdf:type owl:Class ;
-                                                           rdfs:label "E22.Man-made Object"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E31-document
-<http://ontologies.org/MA_Ontology/class:E31-document> rdf:type owl:Class ;
-                                                       rdfs:subClassOf owl:Thing ;
-                                                       rdfs:label "E31.Document"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E41-appellation
-<http://ontologies.org/MA_Ontology/class:E41-appellation> rdf:type owl:Class ;
-                                                          rdfs:label "E41.Appellation"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E52-timespan
-<http://ontologies.org/MA_Ontology/class:E52-timespan> rdf:type owl:Class ;
-                                                       rdfs:label "E52.Time-Span"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E53-place
-<http://ontologies.org/MA_Ontology/class:E53-place> rdf:type owl:Class ;
-                                                    rdfs:label "E53.Place"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:E77-persistent_item
-<http://ontologies.org/MA_Ontology/class:E77-persistent_item> rdf:type owl:Class ;
-                                                              rdfs:label "E77.Persistent Item"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_book
-<http://ontologies.org/MA_Ontology/class:MA_book> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:E31-document> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_institute>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/documents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_book>
-                                                                  ] ;
-                                                  rdfs:label "MA_Document"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_form
-<http://ontologies.org/MA_Ontology/class:MA_form> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:training_method> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/contains> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/has_intent> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_tactic>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/is_form_in> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/Form_set>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/represents> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/similar_form_to> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_form>
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                    owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                  ] ;
-                                                  rdfs:label "Form"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_institute
-<http://ontologies.org/MA_Ontology/class:MA_institute> rdf:type owl:Class ;
-                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/located_at> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/teaches> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/teaches> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                       ] ;
-                                                       rdfs:label "MA_institute" .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_principle
-<http://ontologies.org/MA_Ontology/class:MA_principle> rdf:type owl:Class ;
-                                                       rdfs:subClassOf owl:Thing ;
-                                                       rdfs:label "MA_principle" .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_style
-<http://ontologies.org/MA_Ontology/class:MA_style> rdf:type owl:Class ;
-                                                   rdfs:subClassOf owl:Thing ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/belongs_to> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/developed_from> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/has> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/has_origin_place> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/has_principle> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/has_symbol> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:symbolic_animal>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/influences> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/taught_at> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_institute>
-                                                                   ] ;
-                                                   rdfs:label "MA_Style"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_syllabus
-<http://ontologies.org/MA_Ontology/class:MA_syllabus> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:E21-Person> ,
-                                                                      owl:Thing ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adapts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adapts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adapts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:armament>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adapts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:trainig_tool>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adapts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/contains> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:armament>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:trainig_tool>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/creates> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/is_child_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/is_clan_member_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/is_master_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/is_parent_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/is_student_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/lives_in_ts> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E52-timespan>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/practices> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/practices> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/resides_in> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/taught_at> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_institute>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/teaches> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/Form_set>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/teaches> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/teaches> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/teaches_at> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_institute>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E21-Person>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/valid_for> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/valid_for> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/valid_for> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                                      ] ;
-                                                      rdfs:label "MA_Master"^^xsd:string ,
-                                                                 "MA_syllabus"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_system
-<http://ontologies.org/MA_Ontology/class:MA_system> rdf:type owl:Class ;
-                                                    rdfs:subClassOf owl:Thing ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/adopts> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/belongs_to> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/has> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/has> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_syllabus>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/has_origin_place> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E53-place>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/has_principle> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/has_symbol> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:symbolic_animal>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/influences> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/influences> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/taught_at> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_institute>
-                                                                    ] ;
-                                                    rdfs:label "MA_System" .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_tactic
-<http://ontologies.org/MA_Ontology/class:MA_tactic> rdf:type owl:Class ;
-                                                    rdfs:label "MA_tactic" .
-
-
-###  http://ontologies.org/MA_Ontology/class:MA_technique
-<http://ontologies.org/MA_Ontology/class:MA_technique> rdf:type owl:Class ;
-                                                       rdfs:subClassOf owl:Thing ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/assessed_by> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:grading_system>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:body_bridge>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:bodywork>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:footwork>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/has_intent> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_tactic>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/practiced_in> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/represents> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/similar_to> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/simulates> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:symbolic_animal>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/used_in> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/used_in> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                       ] ;
-                                                       rdfs:label "MA_Technique" .
-
-
-###  http://ontologies.org/MA_Ontology/class:armament
-<http://ontologies.org/MA_Ontology/class:armament> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:E22-man_made_obj> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E22-man_made_obj>
-                                                                   ] ;
-                                                   rdfs:label "Armament"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:body_bridge
-<http://ontologies.org/MA_Ontology/class:body_bridge> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                      ] ;
-                                                      rdfs:label "Bridge" .
-
-
-###  http://ontologies.org/MA_Ontology/class:body_cntr_mnpl
-<http://ontologies.org/MA_Ontology/class:body_cntr_mnpl> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_principle> ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                           owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                         ] ;
-                                                         rdfs:label "Body_control"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:bodywork
-<http://ontologies.org/MA_Ontology/class:bodywork> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                   ] ;
-                                                   rdfs:label "Bodywork" .
-
-
-###  http://ontologies.org/MA_Ontology/class:breath_cntr_mnpl
-<http://ontologies.org/MA_Ontology/class:breath_cntr_mnpl> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_principle> ,
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                             owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                           ] ;
-                                                           rdfs:label "Breath_control"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:breathing_method
-<http://ontologies.org/MA_Ontology/class:breathing_method> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                             owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                           ] ;
-                                                           rdfs:label "Breathing_method" .
-
-
-###  http://ontologies.org/MA_Ontology/class:claw_tech
-<http://ontologies.org/MA_Ontology/class:claw_tech> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:handwork> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:hand_shape>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                    ] ;
-                                                    rdfs:label "Claw_tech" .
-
-
-###  http://ontologies.org/MA_Ontology/class:combo_tech
-<http://ontologies.org/MA_Ontology/class:combo_tech> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                     ] ;
-                                                     rdfs:label "Combo_tech" .
-
-
-###  http://ontologies.org/MA_Ontology/class:elbow_tech
-<http://ontologies.org/MA_Ontology/class:elbow_tech> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:handwork> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                     ] ;
-                                                     <http://ontologies.org/MA_Ontology/ontoMA_name_zh> "踭法"^^xsd:string ;
-                                                     <http://ontologies.org/MA_Ontology/ontoMA_otherName_zh> "肘法"^^xsd:string ;
-                                                     rdfs:label "Elbow_tech" ;
-                                                     :name_en "Elbow techniques"^^xsd:string ;
-                                                     :name_romanCAN "Zaang Faat"^^xsd:string ;
-                                                     :name_romanMAN "Zhou Fa"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:fighting_strategy
-<http://ontologies.org/MA_Ontology/class:fighting_strategy> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_principle> ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                              owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                            ] ;
-                                                            rdfs:label "Connection_bridges"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:fist_tech
-<http://ontologies.org/MA_Ontology/class:fist_tech> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:handwork> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:hand_shape>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                    ] ;
-                                                    rdfs:label "Fist_tech"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:footwork
-<http://ontologies.org/MA_Ontology/class:footwork> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                   ] ;
-                                                   rdfs:label "Footwork" .
-
-
-###  http://ontologies.org/MA_Ontology/class:grading_system
-<http://ontologies.org/MA_Ontology/class:grading_system> rdf:type owl:Class ;
-                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://ontologies.org/MA_Ontology/valid_for> ;
-                                                                           owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_style>
-                                                                         ] ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://ontologies.org/MA_Ontology/valid_for> ;
-                                                                           owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_system>
-                                                                         ] ;
-                                                         rdfs:label "Assessment_method"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:hand_shape
-<http://ontologies.org/MA_Ontology/class:hand_shape> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:handwork> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                     ] ;
-                                                     <http://ontologies.org/MA_Ontology/ontoMA_name_zh> "手形"@zh ;
-                                                     <http://ontologies.org/MA_Ontology/ontoMA_otherName_en> "Hand status"@en ;
-                                                     rdfs:label "Gesture"^^xsd:string ;
-                                                     :name_en "Gesture"@en ;
-                                                     :name_romanCAN "Sau Jing"^^xsd:string ;
-                                                     :name_romanMAN "Shou Xing"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:handwork
-<http://ontologies.org/MA_Ontology/class:handwork> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                   ] ;
-                                                   rdfs:label "Handwork" .
-
-
-###  http://ontologies.org/MA_Ontology/class:honor_code
-<http://ontologies.org/MA_Ontology/class:honor_code> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_principle> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                       owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                     ] ;
-                                                     rdfs:label "Honor_code"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:intent_clarity
-<http://ontologies.org/MA_Ontology/class:intent_clarity> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_principle> ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                           owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_principle>
-                                                                         ] ;
-                                                         rdfs:label "Fighting_strategy"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:leg_tech
-<http://ontologies.org/MA_Ontology/class:leg_tech> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:footwork> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                     owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:footwork>
-                                                                   ] ;
-                                                   rdfs:label "Leg_tech"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:palm_tech
-<http://ontologies.org/MA_Ontology/class:palm_tech> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:handwork> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/employs> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:hand_shape>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                      owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:handwork>
-                                                                    ] ;
-                                                    rdfs:label "Palm_tech" .
-
-
-###  http://ontologies.org/MA_Ontology/class:physical_training
-<http://ontologies.org/MA_Ontology/class:physical_training> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:training_method> ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                              owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                            ] ;
-                                                            rdfs:label "Physical_training"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:spar_training
-<http://ontologies.org/MA_Ontology/class:spar_training> rdf:type owl:Class ;
-                                                        rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:training_method> ,
-                                                                        [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                          owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:training_method>
-                                                                        ] ;
-                                                        rdfs:label "Sparring"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:stance
-<http://ontologies.org/MA_Ontology/class:stance> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:footwork> ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                   owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:footwork>
-                                                                 ] ;
-                                                 <http://ontologies.org/MA_Ontology/ontoMA_name_zh> "馬步"@zh ;
-                                                 rdfs:description "In martial arts, stances are the distribution, foot orientation and body positions (particularly the legs and torso) adopted when attacking, defending, advancing, or retreating."@en ;
-                                                 rdfs:label "Stance"^^xsd:string ;
-                                                 :name_en "Stance"@en ;
-                                                 :name_romanCAN "Maa Bou"^^xsd:string ;
-                                                 :name_romanMAN "Ma bu"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:symbolic_animal
-<http://ontologies.org/MA_Ontology/class:symbolic_animal> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:E77-persistent_item> ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                            owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E77-persistent_item>
-                                                                          ] ;
-                                                          rdfs:label "Symbolic_animal"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:trainig_tool
-<http://ontologies.org/MA_Ontology/class:trainig_tool> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:E22-man_made_obj> ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/simulates> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:armament>
-                                                                       ] ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                         owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:E22-man_made_obj>
-                                                                       ] ;
-                                                       rdfs:label "Trainig_tool"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:training_method
-<http://ontologies.org/MA_Ontology/class:training_method> rdf:type owl:Class ;
-                                                          rdfs:subClassOf owl:Thing ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://ontologies.org/MA_Ontology/trains> ;
-                                                                            owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                          ] ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://ontologies.org/MA_Ontology/uses> ;
-                                                                            owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:armament>
-                                                                          ] ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://ontologies.org/MA_Ontology/uses> ;
-                                                                            owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:trainig_tool>
-                                                                          ] ;
-                                                          rdfs:label "Training_method"^^xsd:string .
-
-
-###  http://ontologies.org/MA_Ontology/class:weapon_tech
-<http://ontologies.org/MA_Ontology/class:weapon_tech> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://ontologies.org/MA_Ontology/class:MA_technique> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/type_of> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:MA_technique>
-                                                                      ] ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://ontologies.org/MA_Ontology/uses> ;
-                                                                        owl:someValuesFrom <http://ontologies.org/MA_Ontology/class:armament>
-                                                                      ] ;
-                                                      rdfs:label "Weapon_tech"^^xsd:string .
+###  http://EncodingActs.github.io/MAont/MaOntology/Form_set
+mao:Form_set rdf:type owl:Class ;
+             rdfs:subClassOf mao:class:training_method ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:assessed_by ;
+                               owl:someValuesFrom mao:class:grading_system
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:belongs_to ;
+                               owl:someValuesFrom mao:class:MA_system
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:contains ;
+                               owl:someValuesFrom mao:class:MA_form
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:practiced_in ;
+                               owl:someValuesFrom mao:class:MA_style
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:similar_set_of ;
+                               owl:someValuesFrom mao:Form_set
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty mao:type_of ;
+                               owl:someValuesFrom mao:class:training_method
+                             ] ;
+             mao:ontoMA_otherName_en "Kata"@ja ,
+                                     "Taolu"^^xsd:string ;
+             <http://www.semanticweb.org/owl/owlapi/turtle#name_en> "Form set"^^xsd:string ;
+             rdfs:label "form_set"@en .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E21-Person
+mao:class:E21-Person rdf:type owl:Class ;
+                     rdfs:subClassOf owl:Thing ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:creates ;
+                                       owl:someValuesFrom mao:class:E22-man_made_obj
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:identified_by ;
+                                       owl:someValuesFrom mao:class:E41-appellation
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:lives_in_ts ;
+                                       owl:someValuesFrom mao:class:E52-timespan
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:resides_in ;
+                                       owl:someValuesFrom mao:class:E53-place
+                                     ] ;
+                     rdfs:label "E21.Person"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E22-man_made_obj
+mao:class:E22-man_made_obj rdf:type owl:Class ;
+                           rdfs:label "E22.Man-made Object"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E31-document
+mao:class:E31-document rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing ;
+                       rdfs:label "E31.Document"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E41-appellation
+mao:class:E41-appellation rdf:type owl:Class ;
+                          rdfs:label "E41.Appellation"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E52-timespan
+mao:class:E52-timespan rdf:type owl:Class ;
+                       rdfs:label "E52.Time-Span"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E53-place
+mao:class:E53-place rdf:type owl:Class ;
+                    rdfs:label "E53.Place"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:E77-persistent_item
+mao:class:E77-persistent_item rdf:type owl:Class ;
+                              rdfs:label "E77.Persistent Item"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_book
+mao:class:MA_book rdf:type owl:Class ;
+                  rdfs:subClassOf mao:class:E31-document ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:E53-place
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:MA_institute
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:MA_style
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:MA_syllabus
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:MA_system
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:training_method
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:type_of ;
+                                    owl:someValuesFrom mao:class:MA_book
+                                  ] ;
+                  rdfs:label "MA_Document"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_form
+mao:class:MA_form rdf:type owl:Class ;
+                  rdfs:subClassOf mao:class:training_method ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:contains ;
+                                    owl:someValuesFrom mao:class:MA_technique
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:has_intent ;
+                                    owl:someValuesFrom mao:class:MA_tactic
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:is_form_in ;
+                                    owl:someValuesFrom mao:Form_set
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:represents ;
+                                    owl:someValuesFrom mao:class:MA_principle
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:similar_form_to ;
+                                    owl:someValuesFrom mao:class:MA_form
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:type_of ;
+                                    owl:someValuesFrom mao:class:training_method
+                                  ] ;
+                  rdfs:label "Form"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_institute
+mao:class:MA_institute rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:adopts ;
+                                         owl:someValuesFrom mao:class:MA_syllabus
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:adopts ;
+                                         owl:someValuesFrom mao:class:grading_system
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:adopts ;
+                                         owl:someValuesFrom mao:class:training_method
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:located_at ;
+                                         owl:someValuesFrom mao:class:E53-place
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:teaches ;
+                                         owl:someValuesFrom mao:class:MA_style
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:teaches ;
+                                         owl:someValuesFrom mao:class:MA_system
+                                       ] ;
+                       rdfs:label "MA_institute" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_principle
+mao:class:MA_principle rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing ;
+                       rdfs:label "MA_principle" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_style
+mao:class:MA_style rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:adopts ;
+                                     owl:someValuesFrom mao:class:grading_system
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:adopts ;
+                                     owl:someValuesFrom mao:class:training_method
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:belongs_to ;
+                                     owl:someValuesFrom mao:class:MA_system
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:developed_from ;
+                                     owl:someValuesFrom mao:class:MA_style
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:has ;
+                                     owl:someValuesFrom mao:class:MA_syllabus
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:has_origin_place ;
+                                     owl:someValuesFrom mao:class:E53-place
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:has_principle ;
+                                     owl:someValuesFrom mao:class:MA_principle
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:has_symbol ;
+                                     owl:someValuesFrom mao:class:symbolic_animal
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:influences ;
+                                     owl:someValuesFrom mao:class:MA_style
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:taught_at ;
+                                     owl:someValuesFrom mao:class:MA_institute
+                                   ] ;
+                   rdfs:label "MA_Style"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_syllabus
+mao:class:MA_syllabus rdf:type owl:Class ;
+                      rdfs:subClassOf mao:class:E21-Person ,
+                                      owl:Thing ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:armament
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:trainig_tool
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adopts ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adopts ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:contains ;
+                                        owl:someValuesFrom mao:class:MA_technique
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:armament
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:trainig_tool
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_child_of ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_clan_member_of ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_master_of ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_parent_of ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_student_of ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:lives_in_ts ;
+                                        owl:someValuesFrom mao:class:E52-timespan
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:practices ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:practices ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:resides_in ;
+                                        owl:someValuesFrom mao:class:E53-place
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:taught_at ;
+                                        owl:someValuesFrom mao:class:MA_institute
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:Form_set
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches_at ;
+                                        owl:someValuesFrom mao:class:MA_institute
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:type_of ;
+                                        owl:someValuesFrom mao:class:E21-Person
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:grading_system
+                                      ] ;
+                      rdfs:label "MA_Master"^^xsd:string ,
+                                 "MA_syllabus"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_system
+mao:class:MA_system rdf:type owl:Class ;
+                    rdfs:subClassOf owl:Thing ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:adopts ;
+                                      owl:someValuesFrom mao:class:grading_system
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:adopts ;
+                                      owl:someValuesFrom mao:class:training_method
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:belongs_to ;
+                                      owl:someValuesFrom mao:class:MA_system
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:has ;
+                                      owl:someValuesFrom mao:class:MA_style
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:has ;
+                                      owl:someValuesFrom mao:class:MA_syllabus
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:has_origin_place ;
+                                      owl:someValuesFrom mao:class:E53-place
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:has_principle ;
+                                      owl:someValuesFrom mao:class:MA_principle
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:has_symbol ;
+                                      owl:someValuesFrom mao:class:symbolic_animal
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:influences ;
+                                      owl:someValuesFrom mao:class:MA_style
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:influences ;
+                                      owl:someValuesFrom mao:class:MA_system
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:taught_at ;
+                                      owl:someValuesFrom mao:class:MA_institute
+                                    ] ;
+                    rdfs:label "MA_System" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_tactic
+mao:class:MA_tactic rdf:type owl:Class ;
+                    rdfs:label "MA_tactic" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:MA_technique
+mao:class:MA_technique rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:assessed_by ;
+                                         owl:someValuesFrom mao:class:grading_system
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:employs ;
+                                         owl:someValuesFrom mao:class:body_bridge
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:employs ;
+                                         owl:someValuesFrom mao:class:bodywork
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:employs ;
+                                         owl:someValuesFrom mao:class:footwork
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:employs ;
+                                         owl:someValuesFrom mao:class:handwork
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:has_intent ;
+                                         owl:someValuesFrom mao:class:MA_tactic
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:practiced_in ;
+                                         owl:someValuesFrom mao:class:training_method
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:represents ;
+                                         owl:someValuesFrom mao:class:MA_principle
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:similar_to ;
+                                         owl:someValuesFrom mao:class:MA_technique
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:simulates ;
+                                         owl:someValuesFrom mao:class:symbolic_animal
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:used_in ;
+                                         owl:someValuesFrom mao:class:MA_style
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:used_in ;
+                                         owl:someValuesFrom mao:class:MA_system
+                                       ] ;
+                       rdfs:label "MA_Technique" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:armament
+mao:class:armament rdf:type owl:Class ;
+                   rdfs:subClassOf mao:class:E22-man_made_obj ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:type_of ;
+                                     owl:someValuesFrom mao:class:E22-man_made_obj
+                                   ] ;
+                   rdfs:label "Armament"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:body_bridge
+mao:class:body_bridge rdf:type owl:Class ;
+                      rdfs:subClassOf mao:class:MA_technique ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:type_of ;
+                                        owl:someValuesFrom mao:class:MA_technique
+                                      ] ;
+                      rdfs:label "Bridge" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:body_cntr_mnpl
+mao:class:body_cntr_mnpl rdf:type owl:Class ;
+                         rdfs:subClassOf mao:class:MA_principle ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty mao:type_of ;
+                                           owl:someValuesFrom mao:class:MA_principle
+                                         ] ;
+                         rdfs:label "Body_control"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:bodywork
+mao:class:bodywork rdf:type owl:Class ;
+                   rdfs:subClassOf mao:class:MA_technique ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:type_of ;
+                                     owl:someValuesFrom mao:class:MA_technique
+                                   ] ;
+                   rdfs:label "Bodywork" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:breath_cntr_mnpl
+mao:class:breath_cntr_mnpl rdf:type owl:Class ;
+                           rdfs:subClassOf mao:class:MA_principle ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty mao:type_of ;
+                                             owl:someValuesFrom mao:class:MA_principle
+                                           ] ;
+                           rdfs:label "Breath_control"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:breathing_method
+mao:class:breathing_method rdf:type owl:Class ;
+                           rdfs:subClassOf mao:class:MA_technique ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty mao:type_of ;
+                                             owl:someValuesFrom mao:class:MA_technique
+                                           ] ;
+                           rdfs:label "Breathing_method" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:claw_tech
+mao:class:claw_tech rdf:type owl:Class ;
+                    rdfs:subClassOf mao:class:handwork ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:employs ;
+                                      owl:someValuesFrom mao:class:hand_shape
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:type_of ;
+                                      owl:someValuesFrom mao:class:handwork
+                                    ] ;
+                    rdfs:label "Claw_tech" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:combo_tech
+mao:class:combo_tech rdf:type owl:Class ;
+                     rdfs:subClassOf mao:class:MA_technique ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:employs ;
+                                       owl:someValuesFrom mao:class:MA_technique
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:type_of ;
+                                       owl:someValuesFrom mao:class:MA_technique
+                                     ] ;
+                     rdfs:label "Combo_tech" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:elbow_tech
+mao:class:elbow_tech rdf:type owl:Class ;
+                     rdfs:subClassOf mao:class:handwork ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:type_of ;
+                                       owl:someValuesFrom mao:class:handwork
+                                     ] ;
+                     mao:ontoMA_name_zh "踭法"^^xsd:string ;
+                     mao:ontoMA_otherName_zh "肘法"^^xsd:string ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_en> "Elbow techniques"^^xsd:string ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_romanCAN> "Zaang Faat"^^xsd:string ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_romanMAN> "Zhou Fa"^^xsd:string ;
+                     rdfs:label "Elbow_tech" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:fighting_strategy
+mao:class:fighting_strategy rdf:type owl:Class ;
+                            rdfs:subClassOf mao:class:MA_principle ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty mao:type_of ;
+                                              owl:someValuesFrom mao:class:MA_principle
+                                            ] ;
+                            rdfs:label "Connection_bridges"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:fist_tech
+mao:class:fist_tech rdf:type owl:Class ;
+                    rdfs:subClassOf mao:class:handwork ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:employs ;
+                                      owl:someValuesFrom mao:class:hand_shape
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:type_of ;
+                                      owl:someValuesFrom mao:class:handwork
+                                    ] ;
+                    rdfs:label "Fist_tech"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:footwork
+mao:class:footwork rdf:type owl:Class ;
+                   rdfs:subClassOf mao:class:MA_technique ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:type_of ;
+                                     owl:someValuesFrom mao:class:MA_technique
+                                   ] ;
+                   rdfs:label "Footwork" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:grading_system
+mao:class:grading_system rdf:type owl:Class ;
+                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                           owl:onProperty mao:valid_for ;
+                                           owl:someValuesFrom mao:class:MA_style
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty mao:valid_for ;
+                                           owl:someValuesFrom mao:class:MA_system
+                                         ] ;
+                         rdfs:label "Assessment_method"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:hand_shape
+mao:class:hand_shape rdf:type owl:Class ;
+                     rdfs:subClassOf mao:class:handwork ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:type_of ;
+                                       owl:someValuesFrom mao:class:handwork
+                                     ] ;
+                     mao:ontoMA_name_zh "手形"@zh ;
+                     mao:ontoMA_otherName_en "Hand status"@en ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_en> "Gesture"@en ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_romanCAN> "Sau Jing"^^xsd:string ;
+                     <http://www.semanticweb.org/owl/owlapi/turtle#name_romanMAN> "Shou Xing"^^xsd:string ;
+                     rdfs:label "Gesture"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:handwork
+mao:class:handwork rdf:type owl:Class ;
+                   rdfs:subClassOf mao:class:MA_technique ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:type_of ;
+                                     owl:someValuesFrom mao:class:MA_technique
+                                   ] ;
+                   rdfs:label "Handwork" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:honor_code
+mao:class:honor_code rdf:type owl:Class ;
+                     rdfs:subClassOf mao:class:MA_principle ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty mao:type_of ;
+                                       owl:someValuesFrom mao:class:MA_principle
+                                     ] ;
+                     rdfs:label "Honor_code"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:intent_clarity
+mao:class:intent_clarity rdf:type owl:Class ;
+                         rdfs:subClassOf mao:class:MA_principle ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty mao:type_of ;
+                                           owl:someValuesFrom mao:class:MA_principle
+                                         ] ;
+                         rdfs:label "Fighting_strategy"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:leg_tech
+mao:class:leg_tech rdf:type owl:Class ;
+                   rdfs:subClassOf mao:class:footwork ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty mao:type_of ;
+                                     owl:someValuesFrom mao:class:footwork
+                                   ] ;
+                   rdfs:label "Leg_tech"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:palm_tech
+mao:class:palm_tech rdf:type owl:Class ;
+                    rdfs:subClassOf mao:class:handwork ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:employs ;
+                                      owl:someValuesFrom mao:class:hand_shape
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty mao:type_of ;
+                                      owl:someValuesFrom mao:class:handwork
+                                    ] ;
+                    rdfs:label "Palm_tech" .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:physical_training
+mao:class:physical_training rdf:type owl:Class ;
+                            rdfs:subClassOf mao:class:training_method ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty mao:type_of ;
+                                              owl:someValuesFrom mao:class:training_method
+                                            ] ;
+                            rdfs:label "Physical_training"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:spar_training
+mao:class:spar_training rdf:type owl:Class ;
+                        rdfs:subClassOf mao:class:training_method ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty mao:type_of ;
+                                          owl:someValuesFrom mao:class:training_method
+                                        ] ;
+                        rdfs:label "Sparring"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:stance
+mao:class:stance rdf:type owl:Class ;
+                 rdfs:subClassOf mao:class:footwork ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty mao:type_of ;
+                                   owl:someValuesFrom mao:class:footwork
+                                 ] ;
+                 mao:ontoMA_name_zh "馬步"@zh ;
+                 <http://www.semanticweb.org/owl/owlapi/turtle#name_en> "Stance"@en ;
+                 <http://www.semanticweb.org/owl/owlapi/turtle#name_romanCAN> "Maa Bou"^^xsd:string ;
+                 <http://www.semanticweb.org/owl/owlapi/turtle#name_romanMAN> "Ma bu"^^xsd:string ;
+                 rdfs:description "In martial arts, stances are the distribution, foot orientation and body positions (particularly the legs and torso) adopted when attacking, defending, advancing, or retreating."@en ;
+                 rdfs:label "Stance"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:symbolic_animal
+mao:class:symbolic_animal rdf:type owl:Class ;
+                          rdfs:subClassOf mao:class:E77-persistent_item ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty mao:type_of ;
+                                            owl:someValuesFrom mao:class:E77-persistent_item
+                                          ] ;
+                          rdfs:label "Symbolic_animal"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:trainig_tool
+mao:class:trainig_tool rdf:type owl:Class ;
+                       rdfs:subClassOf mao:class:E22-man_made_obj ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:simulates ;
+                                         owl:someValuesFrom mao:class:armament
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty mao:type_of ;
+                                         owl:someValuesFrom mao:class:E22-man_made_obj
+                                       ] ;
+                       rdfs:label "Trainig_tool"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:training_method
+mao:class:training_method rdf:type owl:Class ;
+                          rdfs:subClassOf owl:Thing ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty mao:trains ;
+                                            owl:someValuesFrom mao:class:MA_technique
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty mao:uses ;
+                                            owl:someValuesFrom mao:class:armament
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty mao:uses ;
+                                            owl:someValuesFrom mao:class:trainig_tool
+                                          ] ;
+                          rdfs:label "Training_method"^^xsd:string .
+
+
+###  http://EncodingActs.github.io/MAont/MaOntology/class:weapon_tech
+mao:class:weapon_tech rdf:type owl:Class ;
+                      rdfs:subClassOf mao:class:MA_technique ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:type_of ;
+                                        owl:someValuesFrom mao:class:MA_technique
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:uses ;
+                                        owl:someValuesFrom mao:class:armament
+                                      ] ;
+                      rdfs:label "Weapon_tech"^^xsd:string .
 
 
 ###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
