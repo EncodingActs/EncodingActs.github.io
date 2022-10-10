@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://EncodingActs.github.io/MAont/MAont_base"
+     xml:base="http://EncodingActs.github.io/MAont/hkmalakg"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://EncodingActs.github.io/MAont/MAont_base">
+     ontologyIRI="http://EncodingActs.github.io/MAont/hkmalakg">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -13,1275 +13,1075 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Prefix name="MA_ont" IRI="http://EncodingActs.github.io/MAont/MAont_base#"/>
+    <Prefix name="hkmalakg" IRI="http://EncodingActs.github.io/MAont/hkmalakg#"/>
     <Prefix name="martialmotion" IRI="http://semanticweb.org/ont/martialmotion#"/>
     <Declaration>
-        <Class IRI="#Armament"/>
+        <Class IRI="#Association"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E21_Person"/>
+        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E22_Man-made_object"/>
+        <Class IRI="#Clan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E25_Human-Made_Feature"/>
+        <Class IRI="#School_and_Club"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E28_Conceptual_Object"/>
+        <Class IRI="#Site"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E31_Document"/>
+        <Class IRI="#Temple_and_Sect"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E41_Appellation"/>
+        <Class abbreviatedIRI="martialmotion:Armour"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E52_Time-Span"/>
+        <Class abbreviatedIRI="martialmotion:Axe"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E53_Place"/>
+        <Class abbreviatedIRI="martialmotion:Ballistic_knife"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E7_Activity"/>
+        <Class abbreviatedIRI="martialmotion:Blowgun"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E90_Symbolic_Object"/>
+        <Class abbreviatedIRI="martialmotion:Blunt_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fundamental"/>
+        <Class abbreviatedIRI="martialmotion:Bow"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Grading_sys"/>
+        <Class abbreviatedIRI="martialmotion:Chain_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Image"/>
+        <Class abbreviatedIRI="martialmotion:Chakram"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Jin"/>
+        <Class abbreviatedIRI="martialmotion:Crossbow"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_Technique"/>
+        <Class abbreviatedIRI="martialmotion:Dagger"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_book"/>
+        <Class abbreviatedIRI="martialmotion:Defensive_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_institute"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_style"/>
+        <Class abbreviatedIRI="martialmotion:Guandao"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_syllabus"/>
+        <Class abbreviatedIRI="martialmotion:Halberd"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_system"/>
+        <Class abbreviatedIRI="martialmotion:Kama"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_taolu"/>
+        <Class abbreviatedIRI="martialmotion:Knife"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MA_training_method"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Martial_arts"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Master"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MoCap"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#P33_used_specific_technique"/>
+        <Class abbreviatedIRI="martialmotion:Melee_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sparring"/>
+        <Class abbreviatedIRI="martialmotion:Nunchaku"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Strength_training"/>
+        <Class abbreviatedIRI="martialmotion:Polearms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Texts"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Training_tool"/>
+        <Class abbreviatedIRI="martialmotion:Region"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Video"/>
+        <Class abbreviatedIRI="martialmotion:Rope"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#bodytech"/>
+        <Class abbreviatedIRI="martialmotion:Shield"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#footwork"/>
+        <Class abbreviatedIRI="martialmotion:Shuriken"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#handwork"/>
+        <Class abbreviatedIRI="martialmotion:Sickle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ymH_metamotion"/>
+        <Class abbreviatedIRI="martialmotion:Slapjack"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#belongs_to"/>
+        <Class abbreviatedIRI="martialmotion:Sling"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#creates"/>
+        <Class abbreviatedIRI="martialmotion:Spear"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#descendant_of"/>
+        <Class abbreviatedIRI="martialmotion:Staff"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#describes"/>
+        <Class abbreviatedIRI="martialmotion:Sword"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#detected_in"/>
+        <Class abbreviatedIRI="martialmotion:Tabak-Toyok"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#documents"/>
+        <Class abbreviatedIRI="martialmotion:Taser"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#employs"/>
+        <Class abbreviatedIRI="martialmotion:Tonfa"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#encodes"/>
+        <Class abbreviatedIRI="martialmotion:War_hammer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_feature"/>
+        <Class abbreviatedIRI="martialmotion:Whip"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_origin_place"/>
+        <ObjectProperty IRI="#belongs_to_system"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#homologous_with"/>
+        <ObjectProperty IRI="#has_style"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#identified_by"/>
+        <ObjectProperty IRI="#hyperStyle_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#influenced_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_child_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_clan_member_of"/>
+        <ObjectProperty IRI="#hyperSystem_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_master_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_parent_of"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#is_student_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#lives_in"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#located_at"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#part_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#performed_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#portrait_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#practiced_in"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#practices"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#recognized_in"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#records"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#represented_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#requires"/>
+        <ObjectProperty IRI="#locates_in"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#resides_in"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#substyle_of"/>
+        <ObjectProperty IRI="#subStyle_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#symbolized_by"/>
+        <ObjectProperty IRI="#subSystem_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#taught_at"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#taught_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#teaches"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#teaches_at"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#title_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#trains"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#type_of"/>
+        <ObjectProperty IRI="#sworn_brothers"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#uses"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#valid_for"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:adopts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#with"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:competes_in"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#MAonto_v1"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#BaiduURL"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:employs"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#RDs2xTVp0k0L8mGtMLKamua"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:fights_with"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#name_zhHK"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#otherName_zh"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_origin_in"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#wikiURL"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_place_of_birth"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_residence"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:master_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:popular_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:practiced_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:practices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:re-created_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:represented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:similar_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:taught_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:teaches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:valid_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EN_family_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EN_first_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EN_middle_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EN_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#art_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#family_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#featureID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fileDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#filePath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fileProduceDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fileProducer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#full_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#middle_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name_language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personAppelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personBiography"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personBirthday"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personBirthplace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personDeathday"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#placeDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#placeENName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#placeLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:Armament"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:MA_institute"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:MA_style"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:MA_system"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:Master"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:E21_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:E28_Conceptual_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="MA_ont:E53_Place"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="MA_ont:MA_institute"/>
+        <Class IRI="#School_and_Club"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="MA_ont:MA_style"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="MA_ont:MA_system"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="MA_ont:Master"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Armament"/>
-        <Class IRI="#E22_Man-made_object"/>
+        <Class abbreviatedIRI="MA_ont:MA_institute"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Armament"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#E22_Man-made_object"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#Association"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E21_Person"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#City"/>
+        <Class abbreviatedIRI="MA_ont:E53_Place"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E21_Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#creates"/>
-            <Class IRI="#E22_Man-made_object"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#Clan"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E21_Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#identified_by"/>
-            <Class IRI="#E41_Appellation"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#School_and_Club"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E21_Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#lives_in"/>
-            <Class IRI="#E52_Time-Span"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#Site"/>
+        <Class abbreviatedIRI="MA_ont:E53_Place"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E21_Person"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#resides_in"/>
-            <Class IRI="#E53_Place"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#Temple_and_Sect"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E31_Document"/>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Armour"/>
+        <Class abbreviatedIRI="martialmotion:Defensive_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E41_Appellation"/>
-        <Class IRI="#E90_Symbolic_Object"/>
+        <Class abbreviatedIRI="martialmotion:Axe"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#E90_Symbolic_Object"/>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Ballistic_knife"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fundamental"/>
-        <Class IRI="#MA_Technique"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Melee_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fundamental"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#represented_by"/>
-            <Class IRI="#E25_Human-Made_Feature"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Blowgun"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fundamental"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Blunt_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Melee_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Grading_sys"/>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Bow"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Image"/>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Chain_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Image"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#portrait_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Chakram"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Jin"/>
-        <Class IRI="#Fundamental"/>
+        <Class abbreviatedIRI="martialmotion:Crossbow"/>
+        <Class abbreviatedIRI="martialmotion:Bow"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <Class IRI="#P33_used_specific_technique"/>
+        <Class abbreviatedIRI="martialmotion:Dagger"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#bodytech"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Defensive_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#footwork"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#handwork"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Guandao"/>
+        <Class abbreviatedIRI="martialmotion:Polearms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#homologous_with"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Halberd"/>
+        <Class abbreviatedIRI="martialmotion:Polearms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#practiced_in"/>
-            <Class IRI="#MA_taolu"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Kama"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_Technique"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#symbolized_by"/>
-            <Class IRI="#E90_Symbolic_Object"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Knife"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_book"/>
-        <Class IRI="#E31_Document"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <Class abbreviatedIRI="MA_ont:E28_Conceptual_Object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <Class IRI="#E28_Conceptual_Object"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <Class abbreviatedIRI="MA_ont:E28_Conceptual_Object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#belongs_to"/>
-            <Class IRI="#MA_system"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <Class abbreviatedIRI="MA_ont:E21_Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#descendant_of"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Melee_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Nunchaku"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_taolu"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Polearms"/>
+        <Class abbreviatedIRI="martialmotion:Melee_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_style"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_origin_place"/>
-            <Class IRI="#E53_Place"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_syllabus"/>
-        <Class IRI="#E73_Information_Object"/>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+        <Class abbreviatedIRI="MA_ont:E53_Place"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_syllabus"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#MA_training_method"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Rope"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_syllabus"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#valid_for"/>
-            <Class IRI="#Grading_sys"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Shield"/>
+        <Class abbreviatedIRI="martialmotion:Armour"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_system"/>
-        <Class IRI="#E28_Conceptual_Object"/>
+        <Class abbreviatedIRI="martialmotion:Shuriken"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_system"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_origin_place"/>
-            <Class IRI="#E53_Place"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Sickle"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_taolu"/>
-        <Class IRI="#MA_training_method"/>
+        <Class abbreviatedIRI="martialmotion:Slapjack"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_taolu"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#practiced_in"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Sling"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_taolu"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#E73_Information_Object"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Spear"/>
+        <Class abbreviatedIRI="martialmotion:Polearms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_taolu"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#MA_training_method"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Staff"/>
+        <Class abbreviatedIRI="martialmotion:Blunt_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class abbreviatedIRI="martialmotion:Sword"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#Armament"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Tabak-Toyok"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#employs"/>
-            <Class IRI="#Training_tool"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Taser"/>
+        <Class abbreviatedIRI="martialmotion:Ranged_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#part_of"/>
-            <Class IRI="#MA_syllabus"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Tonfa"/>
+        <Class abbreviatedIRI="martialmotion:Blunt_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#trains"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:War_hammer"/>
+        <Class abbreviatedIRI="martialmotion:Bladed_weapon"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MA_training_method"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#uses"/>
-            <Class IRI="#MA_book"/>
-        </ObjectSomeValuesFrom>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
+        <Class abbreviatedIRI="MA_ont:Armament"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <Class IRI="#E7_Activity"/>
+        <Class abbreviatedIRI="martialmotion:Whip"/>
+        <Class abbreviatedIRI="martialmotion:Flexible_weapon"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_syllabus"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#MA_system"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#taught_at"/>
-            <Class IRI="#MA_institute"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Martial_arts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#taught_by"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <Class IRI="#E21_Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#creates"/>
-            <Class IRI="#Armament"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#creates"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#creates"/>
-            <Class IRI="#MA_training_method"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#creates"/>
-            <Class IRI="#Training_tool"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_child_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_clan_member_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_master_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_parent_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_student_of"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#practices"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#practices"/>
-            <Class IRI="#Martial_arts"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#teaches"/>
-            <Class IRI="#MA_training_method"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#teaches_at"/>
-            <Class IRI="#MA_institute"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#title_of"/>
-            <Class IRI="#E21_Person"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Master"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#uses"/>
-            <Class IRI="#Armament"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MoCap"/>
-        <Class IRI="#E31_Document"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MoCap"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#performed_by"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MoCap"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#records"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MoCap"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#records"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sparring"/>
-        <Class IRI="#MA_training_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Strength_training"/>
-        <Class IRI="#MA_training_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Texts"/>
-        <Class IRI="#E31_Document"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Texts"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#describes"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Training_tool"/>
-        <Class IRI="#E22_Man-made_object"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Training_tool"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#Armament"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Training_tool"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#E22_Man-made_object"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Video"/>
-        <Class IRI="#E31_Document"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Video"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#performed_by"/>
-            <Class IRI="#Master"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Video"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#records"/>
-            <Class IRI="#MA_Technique"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Video"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#records"/>
-            <Class IRI="#MA_style"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#bodytech"/>
-        <Class IRI="#Fundamental"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#bodytech"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#Fundamental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#footwork"/>
-        <Class IRI="#Fundamental"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#footwork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#Fundamental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#handwork"/>
-        <Class IRI="#Fundamental"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#handwork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#type_of"/>
-            <Class IRI="#Fundamental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ymH_metamotion"/>
-        <Class IRI="#E25_Human-Made_Feature"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ymH_metamotion"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#encodes"/>
-            <Class IRI="#Fundamental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Armament</IRI>
-        <Literal>Armament</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#BaiduURL</IRI>
-        <Literal>BaiduURL</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E21_Person</IRI>
-        <Literal>E21. Person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E22_Man-made_object</IRI>
-        <Literal>E22. Man-made Object</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E25_Human-Made_Feature</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E25_Human-Made_Feature</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E28_Conceptual_Object</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E31_Document</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E31_Document</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E41_Appellation</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E41_Appellation</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E52_Time-Span</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E52_Time-Span</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E53_Place</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E73_Information_Object</IRI>
-        <Literal>E73_Information_Object</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E7_Activity</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E7_Activity</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#E90_Symbolic_Object</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E90_Symbolic_Object</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Fundamental</IRI>
-        <Literal>Fundamental_technique</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Grading_sys</IRI>
-        <Literal>Grading_system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Image</IRI>
-        <Literal>Image</Literal>
-    </AnnotationAssertion>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Site"/>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongs_to_system"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_style"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_master_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_student_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locates_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#resides_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#subStyle_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#subSystem_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sworn_brothers"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:adopts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:competes_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:employs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:fights_with"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_origin_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_place_of_birth"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_residence"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:master_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:popular_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:practiced_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:practices"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:re-created_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:represented_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:requires"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:similar_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:taught_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:teaches"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="martialmotion:valid_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongs_to_system"/>
+        <ObjectProperty IRI="#has_style"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+        <ObjectProperty IRI="#subStyle_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+        <ObjectProperty IRI="#subSystem_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_master_of"/>
+        <ObjectProperty IRI="#is_student_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#belongs_to_system"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#subStyle_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#subSystem_of"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:fights_with"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#locates_in"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:employs"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_master_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_student_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#locates_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#subStyle_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#subSystem_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#is_master_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#is_student_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#subStyle_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#subSystem_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:fights_with"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongs_to_system"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_style"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_master_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_student_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locates_in"/>
+        <Class IRI="#Site"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locates_in"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#resides_in"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subStyle_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subSystem_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:competes_in"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <Class abbreviatedIRI="martialmotion:Weapon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <Class IRI="#Site"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:practices"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="martialmotion:teaches"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongs_to_system"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_style"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hyperStyle_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hyperSystem_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_master_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_student_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_student_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locates_in"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locates_in"/>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resides_in"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resides_in"/>
+        <Class IRI="#Site"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resides_in"/>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subStyle_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subSystem_of"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:competes_in"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:practices"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:practices"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="martialmotion:teaches"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EN_family_name"/>
+        <DataProperty IRI="#EN_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EN_first_name"/>
+        <DataProperty IRI="#EN_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EN_middle_name"/>
+        <DataProperty IRI="#EN_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EN_name"/>
+        <DataProperty IRI="#personAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#art_name"/>
+        <DataProperty IRI="#personAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#family_name"/>
+        <DataProperty IRI="#full_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#first_name"/>
+        <DataProperty IRI="#full_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#full_name"/>
+        <DataProperty IRI="#personAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#middle_name"/>
+        <DataProperty IRI="#full_name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name_language"/>
+        <DataProperty IRI="#full_name"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#EN_family_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EN_name"/>
+        <Datatype abbreviatedIRI="xsd:Name"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EN_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name_language"/>
+        <Datatype abbreviatedIRI="xsd:language"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Jin</IRI>
-        <Literal>the physical strength and quality of force</Literal>
+        <AbbreviatedIRI>martialmotion:MA_Community</AbbreviatedIRI>
+        <Literal>A Martial Arts (MA) Community represents collective social agents where the transmission of  martial arts taking place, e.g. a school, clan, sect or sports federation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_Technique</IRI>
-        <Literal>MA_Technique</Literal>
+        <AbbreviatedIRI>martialmotion:MA_style</AbbreviatedIRI>
+        <Literal>Style</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_book</IRI>
-        <Literal>MA_book</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_style</IRI>
-        <Literal>MA_style</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_syllabus</IRI>
-        <Literal>MA_syllabus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_system</IRI>
         <AbbreviatedIRI>martialmotion:MA_system</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_taolu</IRI>
-        <Literal>Taolu</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
-        <IRI>#MA_taolu</IRI>
-        <Literal xml:lang="ja">Kata</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
-        <IRI>#MA_taolu</IRI>
-        <Literal xml:lang="en">form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MA_training_method</IRI>
-        <Literal>Training_method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Martial_arts</IRI>
-        <Literal>Martial_arts</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
-        <IRI>#Martial_arts</IRI>
-        <Literal xml:lang="zh-hk">國術</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
-        <IRI>#Martial_arts</IRI>
-        <Literal xml:lang="zh-cn">武术</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Master</IRI>
-        <AbbreviatedIRI>martialmotion:Master</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Master</IRI>
-        <Literal>MA_master</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#MoCap</IRI>
-        <Literal>Motion_capture</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#P33_used_specific_technique</IRI>
-        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/P33_used_specific_technique</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#RDs2xTVp0k0L8mGtMLKamua</IRI>
-        <Literal>otherName_en</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Strength_training</IRI>
-        <Literal>Strength_training</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Texts</IRI>
-        <Literal>Text_doc</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Training_tool</IRI>
-        <Literal>Trainig_tool</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Video</IRI>
-        <Literal>Video</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#belongs_to</IRI>
-        <Literal>belongs_to</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#bodytech</IRI>
-        <Literal>Body_tech</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#creates</IRI>
-        <Literal>creates</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#descendant_of</IRI>
-        <Literal>descendant_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#describes</IRI>
-        <Literal>describes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#detected_in</IRI>
-        <Literal>detected_in</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#documents</IRI>
-        <Literal>documents</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#employs</IRI>
-        <Literal>employs</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#encodes</IRI>
-        <Literal>encodes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#footwork</IRI>
-        <Literal>Footwork</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#handwork</IRI>
-        <Literal>Handwork</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#has</IRI>
-        <Literal>has</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#has_feature</IRI>
-        <Literal>has_feature</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#has_origin_place</IRI>
-        <Literal>has_origin_place</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#homologous_with</IRI>
-        <Literal>homologous_with</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#identified_by</IRI>
-        <Literal>identified_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#influenced_by</IRI>
-        <Literal>influenced_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_child_of</IRI>
-        <Literal>is_child_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_clan_member_of</IRI>
-        <Literal>is_clan_member_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_master_of</IRI>
-        <Literal>is_master_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_parent_of</IRI>
-        <Literal>is_parent_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#is_student_of</IRI>
-        <Literal>is_student_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#lives_in</IRI>
-        <Literal>lives_in</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#located_at</IRI>
-        <Literal>located_at</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#name_zhHK</IRI>
-        <Literal>name_zhHK</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#otherName_zh</IRI>
-        <Literal>otherName_zh</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#part_of</IRI>
-        <Literal>part_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#performed_by</IRI>
-        <Literal>performed_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#portrait_of</IRI>
-        <Literal>portrait_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#practiced_in</IRI>
-        <Literal>practiced_in</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#practices</IRI>
-        <Literal>practices</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#recognized_in</IRI>
-        <Literal>recognized_in</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#records</IRI>
-        <Literal>records</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#represented_by</IRI>
-        <Literal>represented_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#requires</IRI>
-        <Literal>requires</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#resides_in</IRI>
-        <Literal>resides_in</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#substyle_of</IRI>
-        <Literal>substyle_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#symbolized_by</IRI>
-        <Literal>symbolized_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#taught_at</IRI>
-        <Literal>taught_at</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#taught_by</IRI>
-        <Literal>taught_by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#teaches</IRI>
-        <Literal>teaches</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#teaches_at</IRI>
-        <Literal>teaches_at</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#title_of</IRI>
-        <Literal>title_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#trains</IRI>
-        <Literal>trains</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#type_of</IRI>
-        <Literal>type_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#uses</IRI>
-        <Literal>uses</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#valid_for</IRI>
-        <Literal>valid_for</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#wikiURL</IRI>
-        <Literal>wikiURL</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#with</IRI>
-        <Literal>with</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ymH_metamotion</IRI>
-        <Literal>metamotion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>owl:sameAs</AbbreviatedIRI>
-        <Literal>owl:sameAs</Literal>
+        <Literal>System</Literal>
     </AnnotationAssertion>
 </Ontology>
 
