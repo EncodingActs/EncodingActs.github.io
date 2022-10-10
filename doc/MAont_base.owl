@@ -1,0 +1,1291 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://EncodingActs.github.io/MAont/MAont_base"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://EncodingActs.github.io/MAont/MAont_base">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="MA_ont" IRI="http://EncodingActs.github.io/MAont/MAont_base#"/>
+    <Prefix name="martialmotion" IRI="http://semanticweb.org/ont/martialmotion#"/>
+    <Declaration>
+        <Class IRI="#Armament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E21_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E22_Man-made_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E25_Human-Made_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E28_Conceptual_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E31_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E41_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E52_Time-Span"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E53_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E73_Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E7_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E90_Symbolic_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fundamental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grading_sys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_institute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_syllabus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_taolu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MA_training_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martial_arts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Master"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoCap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P33_used_specific_technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strength_training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Texts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training_tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bodytech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#footwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#handwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ymH_metamotion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#descendant_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detected_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#documents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encodes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_origin_place"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#homologous_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influenced_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_child_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_clan_member_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_master_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_parent_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_student_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lives_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#portrait_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#practiced_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#practices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recognized_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#records"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resides_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#substyle_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#symbolized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taught_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taught_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#title_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#valid_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MAonto_v1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BaiduURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RDs2xTVp0k0L8mGtMLKamua"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#name_zhHK"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#otherName_zh"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#wikiURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Armament"/>
+        <Class IRI="#E22_Man-made_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#E22_Man-made_object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#E22_Man-made_object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#identified_by"/>
+            <Class IRI="#E41_Appellation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lives_in"/>
+            <Class IRI="#E52_Time-Span"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#resides_in"/>
+            <Class IRI="#E53_Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E31_Document"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E41_Appellation"/>
+        <Class IRI="#E90_Symbolic_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E90_Symbolic_Object"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fundamental"/>
+        <Class IRI="#MA_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fundamental"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represented_by"/>
+            <Class IRI="#E25_Human-Made_Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fundamental"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grading_sys"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#portrait_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jin"/>
+        <Class IRI="#Fundamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <Class IRI="#P33_used_specific_technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#bodytech"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#footwork"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#handwork"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#homologous_with"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#practiced_in"/>
+            <Class IRI="#MA_taolu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_Technique"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#symbolized_by"/>
+            <Class IRI="#E90_Symbolic_Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_book"/>
+        <Class IRI="#E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <Class IRI="#E28_Conceptual_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongs_to"/>
+            <Class IRI="#MA_system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#descendant_of"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_taolu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_style"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_origin_place"/>
+            <Class IRI="#E53_Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_syllabus"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_syllabus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#MA_training_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_syllabus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#valid_for"/>
+            <Class IRI="#Grading_sys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_system"/>
+        <Class IRI="#E28_Conceptual_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_origin_place"/>
+            <Class IRI="#E53_Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_taolu"/>
+        <Class IRI="#MA_training_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_taolu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#practiced_in"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_taolu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#E73_Information_Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_taolu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#MA_training_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#Armament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#employs"/>
+            <Class IRI="#Training_tool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#part_of"/>
+            <Class IRI="#MA_syllabus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#trains"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MA_training_method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#MA_book"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <Class IRI="#E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_syllabus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#MA_system"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#taught_at"/>
+            <Class IRI="#MA_institute"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_arts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#taught_by"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <Class IRI="#E21_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#Armament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#MA_training_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="#Training_tool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_child_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_clan_member_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_master_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_parent_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_student_of"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#practices"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#practices"/>
+            <Class IRI="#Martial_arts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#teaches"/>
+            <Class IRI="#MA_training_method"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#teaches_at"/>
+            <Class IRI="#MA_institute"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#title_of"/>
+            <Class IRI="#E21_Person"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#Armament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoCap"/>
+        <Class IRI="#E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoCap"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performed_by"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoCap"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#records"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoCap"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#records"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparring"/>
+        <Class IRI="#MA_training_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strength_training"/>
+        <Class IRI="#MA_training_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Texts"/>
+        <Class IRI="#E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Texts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#describes"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training_tool"/>
+        <Class IRI="#E22_Man-made_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training_tool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#Armament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training_tool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#E22_Man-made_object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performed_by"/>
+            <Class IRI="#Master"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#records"/>
+            <Class IRI="#MA_Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#records"/>
+            <Class IRI="#MA_style"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bodytech"/>
+        <Class IRI="#Fundamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bodytech"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#Fundamental"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#footwork"/>
+        <Class IRI="#Fundamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#footwork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#Fundamental"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#handwork"/>
+        <Class IRI="#Fundamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#handwork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#type_of"/>
+            <Class IRI="#Fundamental"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ymH_metamotion"/>
+        <Class IRI="#E25_Human-Made_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ymH_metamotion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encodes"/>
+            <Class IRI="#Fundamental"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Armament</IRI>
+        <Literal>Armament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BaiduURL</IRI>
+        <Literal>BaiduURL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E21_Person</IRI>
+        <Literal>E21. Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E22_Man-made_object</IRI>
+        <Literal>E22. Man-made Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E25_Human-Made_Feature</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E25_Human-Made_Feature</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E28_Conceptual_Object</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E31_Document</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E31_Document</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E41_Appellation</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E41_Appellation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E52_Time-Span</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E52_Time-Span</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E53_Place</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E73_Information_Object</IRI>
+        <Literal>E73_Information_Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E7_Activity</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E7_Activity</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#E90_Symbolic_Object</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E90_Symbolic_Object</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fundamental</IRI>
+        <Literal>Fundamental_technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grading_sys</IRI>
+        <Literal>Grading_system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Image</IRI>
+        <Literal>Image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jin</IRI>
+        <Literal>the physical strength and quality of force</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_Technique</IRI>
+        <Literal>MA_Technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_book</IRI>
+        <Literal>MA_book</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_style</IRI>
+        <Literal>MA_style</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_syllabus</IRI>
+        <Literal>MA_syllabus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_system</IRI>
+        <AbbreviatedIRI>martialmotion:MA_system</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_taolu</IRI>
+        <Literal>Taolu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>#MA_taolu</IRI>
+        <Literal xml:lang="ja">Kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>#MA_taolu</IRI>
+        <Literal xml:lang="en">form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MA_training_method</IRI>
+        <Literal>Training_method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Martial_arts</IRI>
+        <Literal>Martial_arts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>#Martial_arts</IRI>
+        <Literal xml:lang="zh-hk">國術</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>#Martial_arts</IRI>
+        <Literal xml:lang="zh-cn">武术</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Master</IRI>
+        <AbbreviatedIRI>martialmotion:Master</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Master</IRI>
+        <Literal>MA_master</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoCap</IRI>
+        <Literal>Motion_capture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#P33_used_specific_technique</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/P33_used_specific_technique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDs2xTVp0k0L8mGtMLKamua</IRI>
+        <Literal>otherName_en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Strength_training</IRI>
+        <Literal>Strength_training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Texts</IRI>
+        <Literal>Text_doc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Training_tool</IRI>
+        <Literal>Trainig_tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Video</IRI>
+        <Literal>Video</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#belongs_to</IRI>
+        <Literal>belongs_to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bodytech</IRI>
+        <Literal>Body_tech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#creates</IRI>
+        <Literal>creates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#descendant_of</IRI>
+        <Literal>descendant_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#describes</IRI>
+        <Literal>describes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#detected_in</IRI>
+        <Literal>detected_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#documents</IRI>
+        <Literal>documents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#employs</IRI>
+        <Literal>employs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#encodes</IRI>
+        <Literal>encodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#footwork</IRI>
+        <Literal>Footwork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#handwork</IRI>
+        <Literal>Handwork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has</IRI>
+        <Literal>has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_feature</IRI>
+        <Literal>has_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_origin_place</IRI>
+        <Literal>has_origin_place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#homologous_with</IRI>
+        <Literal>homologous_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#identified_by</IRI>
+        <Literal>identified_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#influenced_by</IRI>
+        <Literal>influenced_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_child_of</IRI>
+        <Literal>is_child_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_clan_member_of</IRI>
+        <Literal>is_clan_member_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_master_of</IRI>
+        <Literal>is_master_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_parent_of</IRI>
+        <Literal>is_parent_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_student_of</IRI>
+        <Literal>is_student_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lives_in</IRI>
+        <Literal>lives_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#located_at</IRI>
+        <Literal>located_at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#name_zhHK</IRI>
+        <Literal>name_zhHK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#otherName_zh</IRI>
+        <Literal>otherName_zh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#part_of</IRI>
+        <Literal>part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#performed_by</IRI>
+        <Literal>performed_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portrait_of</IRI>
+        <Literal>portrait_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#practiced_in</IRI>
+        <Literal>practiced_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#practices</IRI>
+        <Literal>practices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#recognized_in</IRI>
+        <Literal>recognized_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#records</IRI>
+        <Literal>records</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#represented_by</IRI>
+        <Literal>represented_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#requires</IRI>
+        <Literal>requires</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#resides_in</IRI>
+        <Literal>resides_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#substyle_of</IRI>
+        <Literal>substyle_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#symbolized_by</IRI>
+        <Literal>symbolized_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taught_at</IRI>
+        <Literal>taught_at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taught_by</IRI>
+        <Literal>taught_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#teaches</IRI>
+        <Literal>teaches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#teaches_at</IRI>
+        <Literal>teaches_at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#title_of</IRI>
+        <Literal>title_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#trains</IRI>
+        <Literal>trains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#type_of</IRI>
+        <Literal>type_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#uses</IRI>
+        <Literal>uses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#valid_for</IRI>
+        <Literal>valid_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wikiURL</IRI>
+        <Literal>wikiURL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#with</IRI>
+        <Literal>with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ymH_metamotion</IRI>
+        <Literal>metamotion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:sameAs</AbbreviatedIRI>
+        <Literal>owl:sameAs</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
