@@ -1,3 +1,3 @@
-This repository is to host the ontologies and RDF files.
+This repository is to host the ontologies and RDF files used to develop the Martial Arts MAsters Knowledge Graph (MA2KG).
 
-This project is licensed under the terms of the MIT license.
+Files in this repository are licensed under the terms of the MIT license.
