@@ -1,0 +1,4898 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://EncodingActs.github.io/annotated/hkmalakg_wiki"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://EncodingActs.github.io/annotated/hkmalakg_wiki">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="hkmalakg" IRI="http://EncodingActs.github.io/MAont/hkmalakg#"/>
+    <Prefix name="webprotege" IRI="http://webprotege.stanford.edu/"/>
+    <Prefix name="hkmalakg-wiki" IRI="http://EncodingActs.github.io/annotated/hkmalakg_wiki#"/>
+    <Prefix name="martialmotion" IRI="http://semanticweb.org/ont/martialmotion#"/>
+    <Declaration>
+        <Class IRI="http://EncodingActs.github.io/MAont/MAont_base#E28_Conceptual_Object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:placeZHName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EN_family_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#communityAppealation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#communityAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#communityENName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#communityZHName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fileAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personENName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personZHName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#placeAppelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#placeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#styleAppelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#styleAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#styleENName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#styleZHName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ang_Lian_Huat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bafaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baguazhang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bajiquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bak_Mei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blue_House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruce_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chan_Heung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chan_Hon_Chung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chan_Wah_Shun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Changquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chin_Na"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chin_Woo_Athletic_Association"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chinese_Martial_Arts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiu_Chi_Ling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiu_Kau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiu_Wai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choy_Gar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chuojiao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deng_Feng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deng_Liang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ditangquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dong_Haichuan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drunken_Monkey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duan_Quan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emeiquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fanzi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feng_Shou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Five_Ancestors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Five_Animals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Five_Elders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fong_Sai_Yuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fong_Tak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fu_Jow_Pai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fujian_White_Crane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fung_Dou_Dak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fut_Gar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gam_Faat_Sim_Si"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heihuquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hong_Kong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hui_Kai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hung_Fut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hung_Hei_Gun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huo_Yuanjia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International_Guoshu_Association"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ip_Ching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ip_Chun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ip_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ji_Sin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Leong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jow_Ga_Kuen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kong_Bucksam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kou_Sze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kunlunquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kwong_Tit_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lai_Tung_Pai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Cho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Chuen_Ho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Chun_Chung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Chun_Fai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Chun_Hin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Chun_Sing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_Sai_Wing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lau_Cham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lau_Kar_Fai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lau_Kar_Leung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lau_Kar_Wing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lau_Kar_Yong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lee_Yon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lei_Jou_Fan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leopard_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leung_Bik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leung_Bok_Chau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leung_Jan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leung_Kwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leung_Lan_Kwai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Li_De_Mao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Li_Gar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lingnan_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lingnan_Lam_Family_Hung_Kuen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lingnan_Lau_Family_Hung_Kuen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liuhebafa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lo_Man_Kam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luk_Ah_Choi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luohan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_Ho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meihuaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mian_Quan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miu_Hin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miu_Tsui_Fa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mizongyi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mok_Gar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monkey_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moy_Yat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ng_Chung_Sok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ng_Mui"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Northern_Praying_Mantis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Northern_Shaolin_Martial_Arts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pao_Chui"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piguaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pushing_Hands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sanda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sha_Dachuan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shanghai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shaolin_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shaolin_Monastery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shuai_Jiao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snake_Kung_Fu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Songshan_Mountain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Dragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Praying_Mantis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Shaolin_Monastery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Shaolin_styles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tai_Chi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tam_An"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tam_Gin_Hing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tam_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tam_Yeung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tam_Yi_Kwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tan_Tui"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tang_Kwok_Wah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tien_Shan_Pai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tongbeiquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Victor_Kan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wanchai_district"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#William_Cheung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wing_Chun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Fei_Hung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Kei_Ying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Shun_Leung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Siu_Ying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Wah_Bo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wong_Yew_Ching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Woo_Ping_Chiu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wudang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xing_Yi_Quan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yau_Kung_Moon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yim_Wing_Chun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yiquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yue_Fei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yuejiaquan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zhao_Kuangyin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zhou_Hanxing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zi_Ran_Men"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#EN_first_name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#family_name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:fileDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personDeathday"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="hkmalakg:Association"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personBiography"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:resides_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:fileProducer"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personBirthplace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="hkmalakg:Clan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:fileProduceDate"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:sworn_brothers"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subSystem_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:placeLocation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subStyle_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personBirthday"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:filePath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:featureID"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="hkmalakg:Site"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="hkmalakg:Temple_and_Sect"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personAppelation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="hkmalakg:City"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:personGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="hkmalakg:placeDescription"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <Class IRI="http://EncodingActs.github.io/MAont/MAont_base#E28_Conceptual_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <Class IRI="http://EncodingActs.github.io/MAont/MAont_base#E28_Conceptual_Object"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ang_Lian_Huat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Baguazhang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Bajiquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Site"/>
+        <NamedIndividual IRI="#Blue_House"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Bruce_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chan_Heung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chan_Hon_Chung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chan_Wah_Shun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Changquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Chaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Chin_Na"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Association"/>
+        <NamedIndividual IRI="#Chin_Woo_Athletic_Association"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <NamedIndividual IRI="#Chinese_Martial_Arts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chiu_Chi_Ling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chiu_Kau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Chiu_Wai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Choy_Gar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Chuojiao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:City"/>
+        <NamedIndividual IRI="#Deng_Feng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Deng_Liang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Ditangquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Dong_Haichuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Drunken_Monkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Duan_Quan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Emeiquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Fanzi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Feng_Shou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Five_Ancestors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Five_Animals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Temple_and_Sect"/>
+        <NamedIndividual IRI="#Five_Elders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Fong_Sai_Yuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Fong_Tak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Fu_Jow_Pai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Fujian_White_Crane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Fung_Dou_Dak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Fut_Gar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Gam_Faat_Sim_Si"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Heihuquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:City"/>
+        <NamedIndividual IRI="#Hong_Kong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Huaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Hui_Kai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Hung_Fut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Hung_Hei_Gun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Huo_Yuanjia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Association"/>
+        <NamedIndividual IRI="#International_Guoshu_Association"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ip_Ching"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ip_Chun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ip_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ji_Sin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#John_Leong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Jow_Ga_Kuen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Kong_Bucksam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Kou_Sze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Kunlunquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Kwong_Tit_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Lai_Tung_Pai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Cho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Chuen_Ho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Chun_Chung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Chun_Fai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Chun_Hin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Chun_Sing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Clan"/>
+        <NamedIndividual IRI="#Lam_Family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lam_Sai_Wing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lau_Cham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lau_Kar_Fai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lau_Kar_Leung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lau_Kar_Wing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lau_Kar_Yong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lee_Yon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lei_Jou_Fan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Leopard_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Leung_Bik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Leung_Bok_Chau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Leung_Jan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Leung_Kwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Leung_Lan_Kwai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Li_De_Mao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Li_Gar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <NamedIndividual IRI="#Lingnan_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Lingnan_Lam_Family_Hung_Kuen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Lingnan_Lau_Family_Hung_Kuen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Liuhebafa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Lo_Man_Kam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Luk_Ah_Choi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Luohan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:City"/>
+        <NamedIndividual IRI="#Macau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Mark_Ho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Meihuaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Mian_Quan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Miu_Hin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Miu_Tsui_Fa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Mizongyi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Mok_Gar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Monkey_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Moy_Yat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ng_Chung_Sok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Ng_Mui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Northern_Praying_Mantis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <NamedIndividual IRI="#Northern_Shaolin_Martial_Arts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Pao_Chui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Piguaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Pushing_Hands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Sanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Sha_Dachuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:City"/>
+        <NamedIndividual IRI="#Shanghai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Shaolin_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Temple_and_Sect"/>
+        <NamedIndividual IRI="#Shaolin_Monastery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Shuai_Jiao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Snake_Kung_Fu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+        <NamedIndividual IRI="#Songshan_Mountain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_system"/>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Southern_Dragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Southern_Praying_Mantis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="hkmalakg:Temple_and_Sect"/>
+        <NamedIndividual IRI="#Southern_Shaolin_Monastery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Southern_Shaolin_styles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Tai_Chi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tam_An"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tam_Gin_Hing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tam_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tam_Yeung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tam_Yi_Kwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Tan_Tui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Tang_Kwok_Wah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Tien_Shan_Pai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Tongbeiquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Victor_Kan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Region"/>
+        <NamedIndividual IRI="#Wanchai_district"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#William_Cheung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Wing_Chun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Fei_Hung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Kei_Ying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Shun_Leung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Siu_Ying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Wah_Bo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Wong_Yew_Ching"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Woo_Ping_Chiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Wudang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Xing_Yi_Quan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Yau_Kung_Moon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Yim_Wing_Chun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Yiquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Yue_Fei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Yuejiaquan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Zhao_Kuangyin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+        <NamedIndividual IRI="#Zhou_Hanxing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+        <NamedIndividual IRI="#Zi_Ran_Men"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+        <NamedIndividual IRI="#Lau_Kar_Fai"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+        <NamedIndividual IRI="#Li_De_Mao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Chan_Heung"/>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Choy_Gar"/>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+        <NamedIndividual IRI="#Choy_Gar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+        <NamedIndividual IRI="#Chan_Heung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Chuojiao"/>
+        <NamedIndividual IRI="#Deng_Liang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Deng_Liang"/>
+        <NamedIndividual IRI="#Chuojiao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Ditangquan"/>
+        <NamedIndividual IRI="#Hui_Kai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Dong_Haichuan"/>
+        <NamedIndividual IRI="#Baguazhang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+        <NamedIndividual IRI="#Yue_Fei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Fanzi"/>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Hui_Kai"/>
+        <NamedIndividual IRI="#Ditangquan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+        <NamedIndividual IRI="#Hung_Hei_Gun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Kou_Sze"/>
+        <NamedIndividual IRI="#Drunken_Monkey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Li_De_Mao"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Lingnan_Lam_Family_Hung_Kuen"/>
+        <NamedIndividual IRI="#Lam_Sai_Wing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Lingnan_Lau_Family_Hung_Kuen"/>
+        <NamedIndividual IRI="#Lau_Cham"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+        <NamedIndividual IRI="#Fanzi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Sha_Dachuan"/>
+        <NamedIndividual IRI="#Chaquan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+        <NamedIndividual IRI="#Wing_Chun"/>
+        <NamedIndividual IRI="#Ng_Mui"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Yue_Fei"/>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Zhao_Kuangyin"/>
+        <NamedIndividual IRI="#Changquan"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ang_Lian_Huat"/>
+        <Literal>Ang Lian Huat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+        <Literal>Ba Fa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+        <Literal>Bafaquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+        <Literal>Eight Methods</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Bafaquan"/>
+        <Literal>八法拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Baguazhang"/>
+        <Literal>Baguazhang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Baguazhang"/>
+        <Literal>Pakua chang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Baguazhang"/>
+        <Literal>八卦掌</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Bajiquan"/>
+        <Literal>Bajiquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Bajiquan"/>
+        <Literal>八極拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+        <Literal>Bak Mei</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+        <Literal>白眉</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Bak_Mei"/>
+        <Literal>白眉道人</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+        <Literal>Bak Mei Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Bak_Mei_Kung_Fu"/>
+        <Literal>白眉功夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="hkmalakg:placeZHName"/>
+        <NamedIndividual IRI="#Blue_House"/>
+        <Literal>蓝屋</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Bruce_Lee"/>
+        <Literal>Bruce Lee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Bruce_Lee"/>
+        <Literal>李小龍</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Bruce_Lee"/>
+        <Literal>李振藩</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chan_Heung"/>
+        <Literal>Chan Heung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chan_Heung"/>
+        <Literal>陳享</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chan_Hon_Chung"/>
+        <Literal>Chan Hon Chung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chan_Hon_Chung"/>
+        <Literal>陳漢宗</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chan_Wah_Shun"/>
+        <Literal>Chan Wah Shun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chan_Wah_Shun"/>
+        <Literal>陈华顺</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Changquan"/>
+        <Literal>Changquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Changquan"/>
+        <Literal>Long Fist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Changquan"/>
+        <Literal>长拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Chaquan"/>
+        <Literal>Cha Fist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Chaquan"/>
+        <Literal>Chāquán</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Chaquan"/>
+        <Literal>查拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Chin_Na"/>
+        <Literal>Chin Na</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Chin_Na"/>
+        <Literal>擒拿</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityENName"/>
+        <NamedIndividual IRI="#Chin_Woo_Athletic_Association"/>
+        <Literal>Chin Woo Athletic Association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityZHName"/>
+        <NamedIndividual IRI="#Chin_Woo_Athletic_Association"/>
+        <Literal>精武體育會</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Chinese_Martial_Arts"/>
+        <Literal>Chinese Martial Arts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Chinese_Martial_Arts"/>
+        <Literal>中国武术</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chiu_Chi_Ling"/>
+        <Literal>Chiu Chi Ling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chiu_Chi_Ling"/>
+        <Literal>趙志淩</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chiu_Kau"/>
+        <Literal>Chiu Kau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chiu_Kau"/>
+        <Literal>Zhao Jiao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chiu_Kau"/>
+        <Literal>趙教</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Chiu_Wai"/>
+        <Literal>Chiu Wai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Chiu_Wai"/>
+        <Literal>趙威</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Choy_Gar"/>
+        <Literal>Choy Gar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Choy_Gar"/>
+        <Literal>蔡家拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+        <Literal>Choi Gau Yi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Choy_Gau_Lee"/>
+        <Literal>蔡九仪</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+        <Literal>Choy Li Fut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Choy_Li_Fut"/>
+        <Literal>蔡李佛</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Chuojiao"/>
+        <Literal>Chuo Jiao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Chuojiao"/>
+        <Literal>戳腳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Deng_Liang"/>
+        <Literal>Deng Liang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Ditangquan"/>
+        <Literal>Ditangquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Ditangquan"/>
+        <Literal>地趟拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Dong_Haichuan"/>
+        <Literal>Dong Haichuan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Dong_Haichuan"/>
+        <Literal>董海川</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Drunken_Monkey"/>
+        <Literal>Drunken Monkey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Drunken_Monkey"/>
+        <Literal>醉猴</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Duan_Quan"/>
+        <Literal>Duan Quan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Duan_Quan"/>
+        <Literal>短拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+        <Literal>Eagle Claw</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Eagle_Claw"/>
+        <Literal>鷹爪派</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Emeiquan"/>
+        <Literal>Emeiquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Emeiquan"/>
+        <Literal>峨嵋拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Fanzi"/>
+        <Literal>Fanzi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Fanzi"/>
+        <Literal>翻子拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Feng_Shou"/>
+        <Literal>Feng Shou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Feng_Shou"/>
+        <Literal>風手</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Five_Ancestors"/>
+        <Literal>Five Ancestors Fist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Five_Ancestors"/>
+        <Literal>五祖拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Five_Animals"/>
+        <Literal>Five Animals</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Five_Animals"/>
+        <Literal>五形</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityENName"/>
+        <NamedIndividual IRI="#Five_Elders"/>
+        <Literal>Five Elders of Shaolin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityZHName"/>
+        <NamedIndividual IRI="#Five_Elders"/>
+        <Literal>少林五祖</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Fong_Sai_Yuk"/>
+        <Literal>方世玉</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Fong_Tak"/>
+        <Literal>Fang De</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Fong_Tak"/>
+        <Literal>Fong Tak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Fong_Tak"/>
+        <Literal>方德</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Fu_Jow_Pai"/>
+        <Literal>Fu Jow Pai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Fu_Jow_Pai"/>
+        <Literal>虎爪派</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Fujian_White_Crane"/>
+        <Literal>White Crane Style</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Fujian_White_Crane"/>
+        <Literal>白鶴拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Fung_Dou_Dak"/>
+        <Literal>Fung Dou Dak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Fung_Dou_Dak"/>
+        <Literal>冯道德</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Fut_Gar"/>
+        <Literal>Fut Ga Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Fut_Gar"/>
+        <Literal>佛家拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Gam_Faat_Sim_Si"/>
+        <Literal>Gam_Faat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Gam_Faat_Sim_Si"/>
+        <Literal>感法</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Gam_Faat_Sim_Si"/>
+        <Literal>感法禅师</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EN_family_name"/>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+        <Literal>Lau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EN_family_name"/>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+        <Literal>Liu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+        <Literal>Lau Kar Fai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Gordon_Liu"/>
+        <Literal>劉家輝</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Heihuquan"/>
+        <Literal>Black Tiger Fist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Heihuquan"/>
+        <Literal>Heihuquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Heihuquan"/>
+        <Literal>黑虎拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Huaquan"/>
+        <Literal>Huaquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Huaquan"/>
+        <Literal>华拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Hui_Kai"/>
+        <Literal>Hui Kai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Hung_Fut"/>
+        <Literal>Hung Fut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Hung_Fut"/>
+        <Literal>洪佛</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Hung_Hei_Gun"/>
+        <Literal>Hung Hei Gun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Hung_Hei_Gun"/>
+        <Literal>洪熙官</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+        <Literal>Hung Ga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+        <Literal>Hung Ga Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+        <Literal>Hung Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Hung_Kuen"/>
+        <Literal>洪拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Huo_Yuanjia"/>
+        <Literal>Huo Yuanjia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Huo_Yuanjia"/>
+        <Literal>霍元甲</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityENName"/>
+        <NamedIndividual IRI="#International_Guoshu_Association"/>
+        <Literal>International Guoshu Association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityZHName"/>
+        <NamedIndividual IRI="#International_Guoshu_Association"/>
+        <Literal>中華國術總會</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ip_Ching"/>
+        <Literal>Ip Ching</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Ching"/>
+        <Literal>叶学正</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Ching"/>
+        <Literal>葉正</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ip_Chun"/>
+        <Literal>Ip Chun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Chun"/>
+        <Literal>叶准</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Chun"/>
+        <Literal>葉準</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ip_Man"/>
+        <Literal>Ip Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ip_Man"/>
+        <Literal>Yip Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Man"/>
+        <Literal>叶问</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ip_Man"/>
+        <Literal>葉問</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ji_Sin"/>
+        <Literal>Ji Sin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ji_Sin"/>
+        <Literal>至善禪師</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#John_Leong"/>
+        <Literal>John Leong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#John_Leong"/>
+        <Literal>梁崇</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Jow_Ga_Kuen"/>
+        <Literal>Jow Ga Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Jow_Ga_Kuen"/>
+        <Literal>周家拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Kong_Bucksam"/>
+        <Literal>Kong Bucksam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Kong_Bucksam"/>
+        <Literal>江北山</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Kou_Sze"/>
+        <Literal>Kou Sze</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Kou_Sze"/>
+        <Literal>寇四</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Kunlunquan"/>
+        <Literal>Kunlunquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Kunlunquan"/>
+        <Literal>昆仑拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Kwong_Tit_Fu"/>
+        <Literal>Kwong Tit Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Kwong_Tit_Fu"/>
+        <Literal>鄺鐵夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Lai_Tung_Pai"/>
+        <Literal>Lai Tung Pai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Lai_Tung_Pai"/>
+        <Literal>黎峒派</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Cho"/>
+        <Literal>Lam Cho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Cho"/>
+        <Literal>林冠球</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Cho"/>
+        <Literal>林祖</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Cho"/>
+        <Literal>林祖根</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EN_family_name"/>
+        <NamedIndividual IRI="#Lam_Chuen_Ho"/>
+        <Literal>Lam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Chuen_Ho"/>
+        <Literal>林存浩</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Chun_Chung"/>
+        <Literal>Lam Chun Chung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Chun_Chung"/>
+        <Literal>林鎮忠</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Chun_Fai"/>
+        <Literal>Lam Chun Fai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Chun_Fai"/>
+        <Literal>林鎮輝</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Chun_Hin"/>
+        <Literal>Lam Chun Hin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Chun_Hin"/>
+        <Literal>林鎮顯</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Chun_Sing"/>
+        <Literal>Lam Chun Sing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Chun_Sing"/>
+        <Literal>林鎮成</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityENName"/>
+        <NamedIndividual IRI="#Lam_Family"/>
+        <Literal>Lam Family Hung Ga lineage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#communityZHName"/>
+        <NamedIndividual IRI="#Lam_Family"/>
+        <Literal>林氏洪拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lam_Sai_Wing"/>
+        <Literal>Lam Sai Wing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lam_Sai_Wing"/>
+        <Literal>林世榮</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Cham"/>
+        <Literal>Lau Cham</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Cham"/>
+        <Literal>Lau Jaam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lau_Cham"/>
+        <Literal>劉湛</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Kar_Fai"/>
+        <Literal>Lau Kar Fai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lau_Kar_Fai"/>
+        <Literal>劉家輝</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Kar_Leung"/>
+        <Literal>Lau Kar Lueng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lau_Kar_Leung"/>
+        <Literal>劉家良</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Kar_Wing"/>
+        <Literal>Lau Kar Wing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lau_Kar_Wing"/>
+        <Literal>劉家榮</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lau_Kar_Yong"/>
+        <Literal>Lau Kar Yong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lau_Kar_Yong"/>
+        <Literal>刘家勇</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lee_Yon"/>
+        <Literal>Lee Yon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lee_Yon"/>
+        <Literal>李健遠</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lei_Jou_Fan"/>
+        <Literal>Lei Jou Fan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lei_Jou_Fan"/>
+        <Literal>李祖寬</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Leopard_Kung_Fu"/>
+        <Literal>Leopard Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Leopard_Kung_Fu"/>
+        <Literal>豹拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Leung_Bik"/>
+        <Literal>Leung Bik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Leung_Bik"/>
+        <Literal>梁璧</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Leung_Bok_Chau"/>
+        <Literal>Leung Bok Chau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Leung_Bok_Chau"/>
+        <Literal>梁博儔</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Leung_Jan"/>
+        <Literal>Leung Jan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Leung_Jan"/>
+        <Literal>梁贊</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Leung_Kwan"/>
+        <Literal>Leung Kwan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Leung_Kwan"/>
+        <Literal>梁坤</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Leung_Lan_Kwai"/>
+        <Literal>Leung Lan Kwai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Leung_Lan_Kwai"/>
+        <Literal>梁兰桂</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Li_De_Mao"/>
+        <Literal>Li Demao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Li_Gar"/>
+        <Literal>Li Gar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Li_Gar"/>
+        <Literal>李家功夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Lingnan_Kung_Fu"/>
+        <Literal>Lingnan Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Lingnan_Kung_Fu"/>
+        <Literal>岭南功夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Lingnan_Lam_Family_Hung_Kuen"/>
+        <Literal>Lingnan Lam Family Hung Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Lingnan_Lam_Family_Hung_Kuen"/>
+        <Literal>岭南林氏洪拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Lingnan_Lau_Family_Hung_Kuen"/>
+        <Literal>Lingnan Lau Family Hung Kuen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Lingnan_Lau_Family_Hung_Kuen"/>
+        <Literal>岭南刘氏洪拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Liuhebafa"/>
+        <Literal>Liuhebafa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Liuhebafa"/>
+        <Literal>六合八法拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Lo_Man_Kam"/>
+        <Literal>Lo Man Kam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Lo_Man_Kam"/>
+        <Literal>盧文錦</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Luk_Ah_Choi"/>
+        <Literal>Luk Ah Choi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Luk_Ah_Choi"/>
+        <Literal>陆阿采</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Luohan"/>
+        <Literal>Luohan quan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Luohan"/>
+        <Literal>罗汉拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Mark_Ho"/>
+        <Literal>Ho Mai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Mark_Ho"/>
+        <Literal>Mark Ho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Mark_Ho"/>
+        <Literal>Mark Houghton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Mark_Ho"/>
+        <Literal>何麥</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Meihuaquan"/>
+        <Literal>Meihuaquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Meihuaquan"/>
+        <Literal>梅花拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Mian_Quan"/>
+        <Literal>Mian Quan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Mian_Quan"/>
+        <Literal>棉拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Miu_Hin"/>
+        <Literal>Miu Hin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Miu_Hin"/>
+        <Literal>苗显</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Miu_Tsui_Fa"/>
+        <Literal>Miu Tsui Fa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Miu_Tsui_Fa"/>
+        <Literal>苗翠花</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Mizongyi"/>
+        <Literal>Mizongyi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Mizongyi"/>
+        <Literal>迷蹤藝</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Mok_Gar"/>
+        <Literal>Mok Gar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Mok_Gar"/>
+        <Literal>莫家</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Monkey_Kung_Fu"/>
+        <Literal>Monkey Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Monkey_Kung_Fu"/>
+        <Literal>猴拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Moy_Yat"/>
+        <Literal>Moy Yat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Moy_Yat"/>
+        <Literal>梅逸</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ng_Chung_Sok"/>
+        <Literal>Ng Chung Sok</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ng_Chung_Sok"/>
+        <Literal>吳仲素</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Ng_Mui"/>
+        <Literal>Ng Mui</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Ng_Mui"/>
+        <Literal>伍枚</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Northern_Praying_Mantis"/>
+        <Literal>Northern Praying Mantis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Northern_Praying_Mantis"/>
+        <Literal>Tang Lang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Northern_Praying_Mantis"/>
+        <Literal>螳螂拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Northern_Shaolin_Martial_Arts"/>
+        <Literal>Northern Shaolin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Northern_Shaolin_Martial_Arts"/>
+        <Literal>北少林</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Pao_Chui"/>
+        <Literal>San Huang Pao Chui</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Pao_Chui"/>
+        <Literal>三皇炮捶</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Piguaquan"/>
+        <Literal>Piguaquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Piguaquan"/>
+        <Literal>劈掛拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Pushing_Hands"/>
+        <Literal>Pushing hands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Pushing_Hands"/>
+        <Literal>Tuishou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Pushing_Hands"/>
+        <Literal>推手</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+        <Literal>Qi Jiguang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Qi_Jiguang"/>
+        <Literal>戚继光</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Sanda"/>
+        <Literal>Sanda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Sanda"/>
+        <Literal>散打</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Sha_Dachuan"/>
+        <Literal>Sha Da Chuan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="hkmalakg:placeZHName"/>
+        <NamedIndividual IRI="#Shanghai"/>
+        <Literal>上海</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Shaolin_Kung_Fu"/>
+        <Literal>Shaolin Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Shaolin_Kung_Fu"/>
+        <Literal>少林功夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Shuai_Jiao"/>
+        <Literal>Shuai Jiao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Shuai_Jiao"/>
+        <Literal>摔角</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Shuai_Jiao"/>
+        <Literal>摔跤</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Snake_Kung_Fu"/>
+        <Literal>Snake Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Snake_Kung_Fu"/>
+        <Literal>蛇拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+        <Literal>Nanquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+        <Literal>Southern Fist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+        <Literal>南拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Southern_Chinese_Martial_Arts"/>
+        <Literal>南派功夫</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Southern_Dragon"/>
+        <Literal>Southern Dragon Kung Fu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Southern_Dragon"/>
+        <Literal>龍形摩橋</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Southern_Praying_Mantis"/>
+        <Literal>Southern Praying Mantis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Southern_Praying_Mantis"/>
+        <Literal>南派螳螂</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="hkmalakg:placeZHName"/>
+        <NamedIndividual IRI="#Southern_Shaolin_Monastery"/>
+        <Literal>南少林</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Southern_Shaolin_styles"/>
+        <Literal>Southern Shaolin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Southern_Shaolin_styles"/>
+        <Literal>南少林</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Tai_Chi"/>
+        <Literal>Tai Chi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Tai_Chi"/>
+        <Literal>太極拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tam_An"/>
+        <Literal>Tam An</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tam_An"/>
+        <Literal>譚安</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tam_Gin_Hing"/>
+        <Literal>Tam Gin Hing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tam_Gin_Hing"/>
+        <Literal>譚建興</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tam_Man"/>
+        <Literal>Tam Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tam_Man"/>
+        <Literal>譚敏</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tam_Yeung"/>
+        <Literal>Tam Yeung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tam_Yeung"/>
+        <Literal>譚讓</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tam_Yi_Kwan"/>
+        <Literal>Tam Yi Kwan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tam_Yi_Kwan"/>
+        <Literal>譚義均</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Tan_Tui"/>
+        <Literal>Tan Tui</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Tan_Tui"/>
+        <Literal>弹腿</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Tang_Kwok_Wah"/>
+        <Literal>Tang Kwok Wah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Tang_Kwok_Wah"/>
+        <Literal>鄧國華</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Tien_Shan_Pai"/>
+        <Literal>Tien Shan Pai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Tien_Shan_Pai"/>
+        <Literal>天山派</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Tongbeiquan"/>
+        <Literal>Tongbeiquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Tongbeiquan"/>
+        <Literal>通背拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Victor_Kan"/>
+        <Literal>Victor Kan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Victor_Kan"/>
+        <Literal>簡華捷</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#William_Cheung"/>
+        <Literal>William Cheung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#William_Cheung"/>
+        <Literal>張卓慶</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Wing_Chun"/>
+        <Literal>Wing Chun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Wing_Chun"/>
+        <Literal>咏春</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Fei_Hung"/>
+        <Literal>Wong Fei Hung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Fei_Hung"/>
+        <Literal>黄飞鸿</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Kei_Ying"/>
+        <Literal>Wong Kei Ying</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Kei_Ying"/>
+        <Literal>黄麒英</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Lee"/>
+        <Literal>Wong Lee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Lee"/>
+        <Literal>王利</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Shun_Leung"/>
+        <Literal>Wong Shun Leung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Shun_Leung"/>
+        <Literal>黃淳樑</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Siu_Ying"/>
+        <Literal>Wong Siu Ying</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Siu_Ying"/>
+        <Literal>黃邵英</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Wah_Bo"/>
+        <Literal>Wong Wah Bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Wah_Bo"/>
+        <Literal>黃華寶</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Wong_Yew_Ching"/>
+        <Literal>Wong Yew Ching</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Wong_Yew_Ching"/>
+        <Literal>黃耀楨</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Woo_Ping_Chiu"/>
+        <Literal>Woo Ping Chiu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Woo_Ping_Chiu"/>
+        <Literal>胡炳超</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Wudang"/>
+        <Literal>Wudang Quan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Wudang"/>
+        <Literal>武當拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Xing_Yi_Quan"/>
+        <Literal>Xing Yi Quan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Xing_Yi_Quan"/>
+        <Literal>形意拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Yau_Kung_Moon"/>
+        <Literal>Yau Kung Moon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Yau_Kung_Moon"/>
+        <Literal>柔功門</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Yim_Wing_Chun"/>
+        <Literal>Yim Wing Chun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Yim_Wing_Chun"/>
+        <Literal>严咏春</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Yiquan"/>
+        <Literal>Yiquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Yiquan"/>
+        <Literal>意拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Yue_Fei"/>
+        <Literal>Yue Fei</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Yue_Fei"/>
+        <Literal>岳飞</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Yuejiaquan"/>
+        <Literal>Yuejiaquan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Yuejiaquan"/>
+        <Literal>岳家拳</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Zhao_Kuangyin"/>
+        <Literal>Zhao Kuangyin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personZHName"/>
+        <NamedIndividual IRI="#Zhao_Kuangyin"/>
+        <Literal>赵匡胤</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#personENName"/>
+        <NamedIndividual IRI="#Zhou_Hanxing"/>
+        <Literal>Zhou Hanxing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleENName"/>
+        <NamedIndividual IRI="#Zi_Ran_Men"/>
+        <Literal>Zi Ran Men</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#styleZHName"/>
+        <NamedIndividual IRI="#Zi_Ran_Men"/>
+        <Literal>自然门</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#creates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#creates"/>
+        <ObjectProperty abbreviatedIRI="martialmotion:created_by"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creates"/>
+        <Class abbreviatedIRI="martialmotion:MA_Community"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creates"/>
+        <Class abbreviatedIRI="martialmotion:Master"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creates"/>
+        <Class abbreviatedIRI="martialmotion:MA_style"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:featureID"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:fileDescription"/>
+        <DataProperty IRI="#fileAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:filePath"/>
+        <DataProperty IRI="#fileAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:fileProduceDate"/>
+        <DataProperty IRI="#fileAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:fileProducer"/>
+        <DataProperty IRI="#fileAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personAppelation"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personBiography"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personBirthday"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personBirthplace"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personDeathday"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:personGender"/>
+        <DataProperty IRI="#personAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:placeDescription"/>
+        <DataProperty IRI="#placeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <DataProperty IRI="#placeAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:placeLocation"/>
+        <DataProperty IRI="#placeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="hkmalakg:placeZHName"/>
+        <DataProperty IRI="#placeAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EN_family_name"/>
+        <DataProperty IRI="#personENName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#communityAppealation"/>
+        <DataProperty IRI="#communityAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#communityAttribute"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#communityENName"/>
+        <DataProperty IRI="#communityAppealation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#communityZHName"/>
+        <DataProperty IRI="#communityAppealation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fileAttribute"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personAttribute"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personENName"/>
+        <DataProperty abbreviatedIRI="hkmalakg:personAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#personZHName"/>
+        <DataProperty abbreviatedIRI="hkmalakg:personAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#placeAppelation"/>
+        <DataProperty IRI="#placeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#placeAttribute"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#styleAppelation"/>
+        <DataProperty IRI="#styleAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#styleAttribute"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#styleENName"/>
+        <DataProperty IRI="#styleAppelation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#styleZHName"/>
+        <DataProperty IRI="#styleAppelation"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#EN_family_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personENName"/>
+        <Datatype abbreviatedIRI="xsd:Name"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personENName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://EncodingActs.github.io/MAont/MAont_base#E28_Conceptual_Object</IRI>
+        <IRI>http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:Association</AbbreviatedIRI>
+        <Literal xml:lang="en">A group of people organized for a joint purpose. An association is usually formed with the offical approval.
+
+Data source example: https://en.wikipedia.org/wiki/Category:Martial_arts_organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:City</AbbreviatedIRI>
+        <Literal>A permanent and densely settled place with administratively defined boundaries whose members work primarily on non-agricultural tasks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:Clan</AbbreviatedIRI>
+        <Literal xml:lang="en">A group of people united by actual or perceived kinship and descent. Clan is a common form of Chinese Martial Arts community throughout its history. Famous clan examples include the Lam Family of Hung Ga lineage (http://www.hungkuen.com/familytree.htm).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:School_and_Club</AbbreviatedIRI>
+        <Literal xml:lang="en">An institution for educating or communicating martial arts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:Site</AbbreviatedIRI>
+        <Literal xml:lang="en">An area of ground on which a town, building, or monument is constructed. Martial arts sites are usually those historical or important locations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>hkmalakg:Temple_and_Sect</AbbreviatedIRI>
+        <Literal xml:lang="en">Chinese temple architecture refer to a type of structures used as place of worship of Chinese Buddhism, Taoism or Chinese folk religion.
+
+Data source: https://en.wikipedia.org/wiki/Chinese_temple_architecture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ang_Lian_Huat</IRI>
+        <Literal>https://www.namyangbrighton.co.uk/master-ang-lian-huat/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bafaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bafaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Baguazhang</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Baguazhang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bajiquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bajiquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Bak_Mei</IRI>
+        <IRI>#Bak_Mei_Kung_Fu</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bak_Mei</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bak_Mei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bak_Mei_Kung_Fu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bak_Mei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+        <IRI>#Blue_House</IRI>
+        <IRI>#Hong_Kong</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+        <IRI>#Blue_House</IRI>
+        <IRI>#Wanchai_district</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Blue_House</IRI>
+        <Literal>Blue House</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blue_House</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Blue_House_(Hong_Kong)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Bruce_Lee</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Bruce_Lee</IRI>
+        <IRI>#Wong_Shun_Leung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Bruce_Lee</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bruce_Lee</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bruce_Lee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chan_Heung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chan_Heung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Chan_Hon_Chung</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Chan_Hon_Chung</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chan_Hon_Chung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chan_Hon-chung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <IRI>#Ng_Chung_Sok</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <IRI>#Leung_Jan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <IRI>#Ip_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chan_Wah_Shun</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chan_Wah-shun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Changquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Changquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ch%C4%81qu%C3%A1n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chin_Na</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chin_Na</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+        <IRI>#Chin_Woo_Athletic_Association</IRI>
+        <IRI>#Shanghai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Chin_Woo_Athletic_Association</IRI>
+        <IRI>#Huo_Yuanjia</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chin_Woo_Athletic_Association</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chin_Woo_Athletic_Association</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chinese_Martial_Arts</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chinese_martial_arts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Chiu_Chi_Ling</IRI>
+        <IRI>#Chiu_Kau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Chiu_Chi_Ling</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiu_Chi_Ling</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chiu_Chi-ling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Chiu_Chi_Ling</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Chiu_Wai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Chiu_Chi_Ling</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Chiu_Wai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Chiu_Kau</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiu_Kau</IRI>
+        <Literal>https://practicalhungkyun.com/tag/chiu-kau/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Chiu_Wai</IRI>
+        <IRI>#Chiu_Kau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Choy_Gar</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Choy_gar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Choy_Gau_Lee</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Choy_gar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Choy_Li_Fut</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Choy_Li_Fut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chuojiao</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chu%C5%8Dji%C7%8Eo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Deng_Feng</IRI>
+        <Literal>Dengfeng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deng_Feng</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Dengfeng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deng_Liang</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Chu%C5%8Dji%C7%8Eo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ditangquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ditangquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Dong_Haichuan</IRI>
+        <IRI>#Baguazhang</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dong_Haichuan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Dong_Haichuan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drunken_Monkey</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Drunken_Monkey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Duan_Quan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Duan_Quan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eagle_Claw</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Eagle_Claw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emeiquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Emeiquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fanzi</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fanzi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Feng_Shou</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Feng_Shou</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Five_Ancestors</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Five_Ancestors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Five_Animals</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Five_Animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Five_Elders</IRI>
+        <IRI>#Bak_Mei</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Five_Elders</IRI>
+        <IRI>#Fung_Dou_Dak</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Five_Elders</IRI>
+        <IRI>#Ji_Sin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Five_Elders</IRI>
+        <IRI>#Miu_Hin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Five_Elders</IRI>
+        <IRI>#Ng_Mui</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Five_Elders</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Five_Elders#The_Five_Family_Elders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Fong_Sai_Yuk</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fong_Sai_Yuk</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fong_Sai-yuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Fong_Tak</IRI>
+        <IRI>#Fong_Sai_Yuk</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fu_Jow_Pai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fu_Jow_Pai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fujian_White_Crane</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fujian_White_Crane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fung_Dou_Dak</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fung_Dou_Dak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fut_Gar</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Fut_Gar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Gordon_Liu</IRI>
+        <IRI>#Lau_Kar_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:sworn_brothers"/>
+        <IRI>#Gordon_Liu</IRI>
+        <IRI>#Lau_Kar_Leung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Gordon_Liu</IRI>
+        <IRI>#Lingnan_Lau_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gordon_Liu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Gordon_Liu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heihuquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Heihuquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Hong_Kong</IRI>
+        <Literal>Hong Kong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hong_Kong</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hong_Kong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Huaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Huaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hui_Kai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ditangquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hung_Fut</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hung_Fut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Hung_Hei_Gun</IRI>
+        <IRI>#Lei_Jou_Fan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Hung_Hei_Gun</IRI>
+        <IRI>#Luk_Ah_Choi</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Hung_Hei_Gun</IRI>
+        <IRI>#Ji_Sin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Hung_Hei_Gun</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hung_Hei_Gun</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hung_Hei-gun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+        <IRI>#Hung_Kuen</IRI>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subStyle_of"/>
+        <IRI>#Hung_Kuen</IRI>
+        <IRI>#Southern_Shaolin_styles</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hung_Kuen</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hung_Ga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Huo_Yuanjia</IRI>
+        <IRI>#Mizongyi</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Huo_Yuanjia</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Huo_Yuanjia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#International_Guoshu_Association</IRI>
+        <Literal>https://www.facebook.com/guoshuintl/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Ip_Ching</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ip_Ching</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ip_Ching</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ip_Ching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Ip_Chun</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ip_Chun</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ip_Chun</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ip_Chun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Bruce_Lee</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Ip_Ching</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Ip_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Wong_Shun_Leung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Chan_Wah_Shun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Leung_Bik</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Ip_Ching</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ip_Man</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ip_Man</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ip_Man</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ji_Sin</IRI>
+        <IRI>#Hung_Hei_Gun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ji_Sin</IRI>
+        <IRI>#Luk_Ah_Choi</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ji_Sin</IRI>
+        <IRI>#Southern_Shaolin_styles</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ji_Sin</IRI>
+        <Literal>Ji Sin is one of the Five Elders of Shaolin (Chinese: 少林五祖), who built Southern Shaolin Monastery in Fujian province.
+
+Source: https://en.wikipedia.org/wiki/Jee_Sin_Sim_See
+https://en.wikipedia.org/wiki/Five_Elders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#John_Leong</IRI>
+        <IRI>#Wong_Lee</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jow_Ga_Kuen</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Jow-Ga_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Kong_Bucksam</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Kong_Bucksam</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Kong_Bucksam</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kou_Sze</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Drunken_Monkey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kunlunquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Kunlunquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Kwong_Tit_Fu</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Kwong_Tit_Fu</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Kwong_Tit_Fu</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lai_Tung_Pai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lai_Tung_Pai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Wong_Yew_Ching</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Chun_Chung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Chun_Fai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Chun_Hin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Chun_Sing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Cho</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Cho</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#EN_first_name"/>
+        <IRI>#Lam_Chuen_Ho</IRI>
+        <Literal>Oscar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#family_name"/>
+        <IRI>#Lam_Chuen_Ho</IRI>
+        <Literal>林</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#first_name"/>
+        <IRI>#Lam_Chuen_Ho</IRI>
+        <Literal>存浩</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Chuen_Ho</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <IRI>#Lam_Chun_Chung</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Chun_Chung</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Chun_Chung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:resides_in"/>
+        <IRI>#Lam_Chun_Fai</IRI>
+        <IRI>#Blue_House</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <IRI>#Lam_Chun_Fai</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Chun_Fai</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Chun_Fai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <IRI>#Lam_Chun_Hin</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Chun_Hin</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Chun_Hin</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <IRI>#Lam_Chun_Sing</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Chun_Sing</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Chun_Sing</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:founded_by"/>
+        <IRI>#Lam_Family</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Family</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Cho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <IRI>#Chiu_Kau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <IRI>#Wong_Fei_Hung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <IRI>#Lingnan_Lau_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lam_Sai_Wing</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Sai-wing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lau_Cham</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lau_Cham</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lam_Sai-wing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lau_Kar_Fai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Gordon_Liu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Lau_Kar_Leung</IRI>
+        <IRI>#Mark_Ho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lau_Kar_Leung</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lau_Kar_Leung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lau_Kar-leung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lau_Kar_Wing</IRI>
+        <IRI>#Lau_Kar_Yong</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lau_Kar_Wing</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lau_Kar-wing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lau_Kar_Yong</IRI>
+        <IRI>#Lau_Cham</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lee_Yon</IRI>
+        <IRI>#Tang_Kwok_Wah</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lei_Jou_Fan</IRI>
+        <IRI>#Hung_Hei_Gun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lei_Jou_Fan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hung_Hei-gun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leopard_Kung_Fu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Leopard_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Leung_Bik</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Leung_Bik</IRI>
+        <IRI>#Leung_Jan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Leung_Bik</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leung_Bik</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Leung_Bik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Leung_Bok_Chau</IRI>
+        <IRI>#Leung_Lan_Kwai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Leung_Bok_Chau</IRI>
+        <IRI>#Yim_Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <IRI>#Leung_Bok_Chau</IRI>
+        <IRI>#Yim_Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Leung_Bok_Chau</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leung_Bok_Chau</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yim_Wing-chun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Leung_Jan</IRI>
+        <IRI>#Chan_Wah_Shun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Leung_Jan</IRI>
+        <IRI>#Wong_Wah_Bo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Leung_Jan</IRI>
+        <IRI>#Leung_Bik</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Leung_Jan</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leung_Jan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Leung_Jan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Leung_Kwan</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Leung_Lan_Kwai</IRI>
+        <IRI>#Wong_Wah_Bo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Leung_Lan_Kwai</IRI>
+        <IRI>#Leung_Bok_Chau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <IRI>#Leung_Lan_Kwai</IRI>
+        <IRI>#Leung_Bok_Chau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Leung_Lan_Kwai</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leung_Lan_Kwai</IRI>
+        <Literal>https://zh.wikipedia.org/wiki/%E6%A2%81%E8%98%AD%E6%A1%82</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Li_De_Mao</IRI>
+        <IRI>#Bafaquan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Li_De_Mao</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Bafaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Li_Gar</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Li_(Lee)_Family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subSystem_of"/>
+        <IRI>#Lingnan_Kung_Fu</IRI>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lingnan_Kung_Fu</IRI>
+        <Literal>https://sarahkenderdine.info/installations-and-curated-exhibitions/lingnan-hung-kuen-across-century</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+        <IRI>#Lingnan_Kung_Fu</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subStyle_of"/>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+        <IRI>#Lingnan_Lau_Family_Hung_Kuen</IRI>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subStyle_of"/>
+        <IRI>#Lingnan_Lau_Family_Hung_Kuen</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:sworn_brothers"/>
+        <IRI>#Lingnan_Lau_Family_Hung_Kuen</IRI>
+        <IRI>#Lau_Kar_Leung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Liuhebafa</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Liuhebafa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Lo_Man_Kam</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Lo_Man_Kam</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lo_Man_Kam</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Lo_Man-kam_(martial_artist)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Luk_Ah_Choi</IRI>
+        <IRI>#Hung_Hei_Gun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Luk_Ah_Choi</IRI>
+        <IRI>#Ji_Sin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Luk_Ah_Choi</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Hung_Ga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Luohan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Luohan_quan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Macau</IRI>
+        <Literal>Macau</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Macau</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Macau</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Mark_Ho</IRI>
+        <IRI>#Lau_Kar_Leung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Mark_Ho</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meihuaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Meihuaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mian_Quan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Mian_Quan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Miu_Hin</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Miu_Hin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Miu_Tsui_Fa</IRI>
+        <IRI>#Fong_Sai_Yuk</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Miu_Tsui_Fa</IRI>
+        <IRI>#Southern_Shaolin_styles</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mizongyi</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Mizongyi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mok_Gar</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Mok_Gar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Monkey_Kung_Fu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Monkey_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Moy_Yat</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Moy_Yat</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moy_Yat</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Moy_Yat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Ng_Chung_Sok</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Ng_Chung_Sok</IRI>
+        <IRI>#Chan_Wah_Shun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ng_Chung_Sok</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Ng_Mui</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ng_Mui</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ng_Mui</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Northern_Praying_Mantis</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Northern_Praying_Mantis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Northern_Shaolin_Martial_Arts</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Northern_Shaolin_(martial_art)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pao_Chui</IRI>
+        <Literal>https://en.wikipedia.org/wiki/P%C3%A0o_Chu%C3%AD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Piguaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Piguaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pushing_Hands</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Pushing_hands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Qi_Jiguang</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Qi_Jiguang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sanda</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Sanda_(sport)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Sha_Dachuan</IRI>
+        <IRI>#Chaquan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sha_Dachuan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Ch%C4%81qu%C3%A1n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Shanghai</IRI>
+        <Literal>Shanghai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shanghai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Shanghai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shaolin_Kung_Fu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Shaolin_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+        <IRI>#Shaolin_Monastery</IRI>
+        <IRI>#Deng_Feng</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:locates_in"/>
+        <IRI>#Shaolin_Monastery</IRI>
+        <IRI>#Songshan_Mountain</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Shaolin_Monastery</IRI>
+        <Literal>Shaolin Monastery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shaolin_Monastery</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Shaolin_Monastery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shuai_Jiao</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Shuai_jiao</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Snake_Kung_Fu</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Snake_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Songshan_Mountain</IRI>
+        <Literal>Songshan Mountain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Songshan_Mountain</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Mount_Song</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:subSystem_of"/>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+        <IRI>#Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Nanquan_(martial_art)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Southern_Dragon</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Southern_Dragon_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Southern_Praying_Mantis</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Southern_Praying_Mantis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Southern_Shaolin_Monastery</IRI>
+        <Literal>Southern Shaolin Monastery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Southern_Shaolin_Monastery</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Southern_Shaolin_Monastery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:belongs_to_system"/>
+        <IRI>#Southern_Shaolin_styles</IRI>
+        <IRI>#Southern_Chinese_Martial_Arts</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Southern_Shaolin_styles</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Shaolin_Kung_Fu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tai_Chi</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Tai_chi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tam_An</IRI>
+        <IRI>#Tam_Yi_Kwan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Tam_An</IRI>
+        <IRI>#Tam_An</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tam_Gin_Hing</IRI>
+        <IRI>#Tam_Yi_Kwan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tam_Man</IRI>
+        <IRI>#Tam_Yi_Kwan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tam_Yeung</IRI>
+        <IRI>#Tam_Yi_Kwan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Tam_Yi_Kwan</IRI>
+        <IRI>#Tam_Yeung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tam_Yi_Kwan</IRI>
+        <IRI>#Gam_Faat_Sim_Si</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tam_Yi_Kwan</IRI>
+        <Literal>http://www.chhcanada.com/history_hung_gar/?lang=en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tan_Tui</IRI>
+        <Literal>https://en.wikipedia.org/wiki/T%C3%A1n_Tu%C7%90</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Tang_Kwok_Wah</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Tang_Kwok_Wah</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tien_Shan_Pai</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Tien_Shan_Pai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tongbeiquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Tongbeiquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Victor_Kan</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Victor_Kan</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Victor_Kan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Victor_Kan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:placeENName"/>
+        <IRI>#Wanchai_district</IRI>
+        <Literal>Wan Chai District</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wanchai_district</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wan_Chai_District</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#William_Cheung</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#William_Cheung</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#William_Cheung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/William_Cheung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wing_Chun</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wing_Chun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Fei_Hung</IRI>
+        <IRI>#Wong_Kei_Ying</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:has_parent"/>
+        <IRI>#Wong_Fei_Hung</IRI>
+        <IRI>#Wong_Kei_Ying</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Fei_Hung</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wong_Fei_Hung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wong_Fei-hung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Wong_Kei_Ying</IRI>
+        <IRI>#Wong_Fei_Hung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_parent_of"/>
+        <IRI>#Wong_Kei_Ying</IRI>
+        <IRI>#Wong_Fei_Hung</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Kei_Ying</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wong_Kei_Ying</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wong_Kei-ying</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Lee</IRI>
+        <IRI>#Lam_Sai_Wing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Wong_Shun_Leung</IRI>
+        <IRI>#Bruce_Lee</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Shun_Leung</IRI>
+        <IRI>#Ip_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Shun_Leung</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wong_Shun_Leung</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wong_Shun-leung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Siu_Ying</IRI>
+        <IRI>#Chiu_Kau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <IRI>#Wong_Siu_Ying</IRI>
+        <IRI>#Chiu_Kau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Wong_Wah_Bo</IRI>
+        <IRI>#Leung_Jan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Wah_Bo</IRI>
+        <IRI>#Leung_Lan_Kwai</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Wah_Bo</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wong_Wah_Bo</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wong_Wah-bo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Wong_Yew_Ching</IRI>
+        <IRI>#Lam_Cho</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Yew_Ching</IRI>
+        <IRI>#Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Wong_Yew_Ching</IRI>
+        <IRI>#Lingnan_Lam_Family_Hung_Kuen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Woo_Ping_Chiu</IRI>
+        <IRI>#Tang_Kwok_Wah</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wudang</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wudang_quan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Xing_Yi_Quan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Xing_Yi_Quan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yau_Kung_Moon</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yau_Kung_Moon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_master_of"/>
+        <IRI>#Yim_Wing_Chun</IRI>
+        <IRI>#Leung_Bok_Chau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Yim_Wing_Chun</IRI>
+        <IRI>#Ng_Mui</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:is_relative_of"/>
+        <IRI>#Yim_Wing_Chun</IRI>
+        <IRI>#Leung_Bok_Chau</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Yim_Wing_Chun</IRI>
+        <IRI>#Wing_Chun</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yim_Wing_Chun</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yim_Wing-chun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yiquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yiquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yue_Fei</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yue_Fei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yuejiaquan</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Yuejiaquan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="martialmotion:practices"/>
+        <IRI>#Zhao_Kuangyin</IRI>
+        <IRI>#Changquan</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zhao_Kuangyin</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="hkmalakg:is_student_of"/>
+        <IRI>#Zhou_Hanxing</IRI>
+        <IRI>#Tam_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zi_Ran_Men</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Zi_Ran_Men</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Defensive_weapon</AbbreviatedIRI>
+        <Literal xml:lang="en">Defensive weapons systems are defined as those that have. a limited range and destruction area and for that reason can (essentially) only be used on one&apos;s own territory; offensive weapons systems are all the others. 
+
+Reference: https://journals.sagepub.com/doi/abs/10.1177/002234338402100204?journalCode=jpra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Flexible_weapon</AbbreviatedIRI>
+        <Literal xml:lang="en">Flexible weapons can bend over a block and therefore can still hit the defender.
+
+Data source: https://en.wikipedia.org/wiki/Category:Flexible_weapons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:MA_style</AbbreviatedIRI>
+        <Literal xml:lang="en">Martial arts style is composed with its own sets of techniques and ideas. For each style, many practioners and communities have inherited inherited and developed it.
+
+Data source: https://en.wikipedia.org/wiki/Styles_of_Chinese_martial_arts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:MA_system</AbbreviatedIRI>
+        <Literal>There are many distinct styles and schools of martial arts. Sometimes, schools or styles are introduced by individual teachers or masters, or as a brand name by a specific gym. Martial arts can be grouped by type or focus, or alternatively by regional origin.
+
+Data source example: https://en.wikipedia.org/wiki/List_of_martial_arts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Master</AbbreviatedIRI>
+        <Literal xml:lang="en">Well-known practitioners throughout history.
+
+Data source example: https://en.wikipedia.org/wiki/Category:Chinese_martial_artists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Melee_weapon</AbbreviatedIRI>
+        <Literal xml:lang="en">A melee weapon, hand weapon or close combat weapon is any handheld weapon used in hand-to-hand combat, i.e. for use within the direct physical reach of the weapon itself, essentially functioning as an additional (and more impactful) extension of the user&apos;s limbs.
+
+Data source: https://en.wikipedia.org/wiki/Melee_weapon#List_of_melee_weapons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Ranged_weapon</AbbreviatedIRI>
+        <Literal xml:lang="en">A ranged weapon is any weapon that can engage targets beyond hand-to-hand distance, i.e. at distances greater than the physical reach of the user holding the weapon itself. 
+
+Data source: https://en.wikipedia.org/wiki/Ranged_weapon#List_of_ranged_weapons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Region</AbbreviatedIRI>
+        <Literal xml:lang="en">Regions are areas that are broadly divided by physical characteristics, human impact characteristics, and the interaction of humanity and the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>martialmotion:Weapon</AbbreviatedIRI>
+        <Literal>Weapons used in the world&apos;s martial arts can be classified either by type of weapon or by the martial arts school using them.
+
+Data source example: https://en.wikipedia.org/wiki/List_of_martial_arts_weapons</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
