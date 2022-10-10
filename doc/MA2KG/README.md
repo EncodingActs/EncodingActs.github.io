@@ -1,0 +1,1 @@
+Documentation for the [**<strong>M</strong>artial <strong>A</strong>rts <strong>MA</strong>sters <strong>K</strong>nowledge <strong>G</strong>raph (MA<sup>2</sup>KG)**](http://www.purl.org/ma2kg/git), generated with [*LODE (Live OWL Documentation Environment)*](https://essepuntato.it/lode/). 
